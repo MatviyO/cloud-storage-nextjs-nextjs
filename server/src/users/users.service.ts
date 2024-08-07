@@ -21,8 +21,8 @@ export class UsersService {
     return await this.usersRepository.findOne({ where: { id } });
   }
 
-  create(createUserDto: CreateUserDto) {
-    return 'This action adds a new user';
+  create(createUserDto: CreateUserDto): Promise<UserEntity> {
+    return this.usersRepository.save(createUserDto);
   }
 
   findAll() {
