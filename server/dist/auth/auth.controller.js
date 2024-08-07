@@ -14,11 +14,11 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthController = void 0;
 const common_1 = require("@nestjs/common");
-const passport_1 = require("@nestjs/passport");
 const swagger_1 = require("@nestjs/swagger");
 const create_user_dto_1 = require("../users/dto/create-user.dto");
 const auth_service_1 = require("./auth.service");
 const UserLoginDto_1 = require("./dto/UserLoginDto");
+const local_guard_1 = require("./guards/local.guard");
 let AuthController = class AuthController {
     constructor(authService) {
         this.authService = authService;
@@ -32,7 +32,7 @@ let AuthController = class AuthController {
 };
 exports.AuthController = AuthController;
 __decorate([
-    (0, common_1.UseGuards)((0, passport_1.AuthGuard)('local')),
+    (0, common_1.UseGuards)(local_guard_1.LocalAuthGuard),
     (0, common_1.Post)('login'),
     (0, swagger_1.ApiBody)({
         type: UserLoginDto_1.UserLoginDto,

@@ -4,12 +4,13 @@ import { ApiBody } from '@nestjs/swagger';
 import { CreateUserDto } from '@app/users/dto/create-user.dto';
 import { AuthService } from '@app/auth/auth.service';
 import { UserLoginDto } from '@app/auth/dto/UserLoginDto';
+import { LocalAuthGuard } from '@app/auth/guards/local.guard';
 
 @Controller('auth')
 export class AuthController {
   constructor(private authService: AuthService) {}
 
-  @UseGuards(AuthGuard('local'))
+  @UseGuards(LocalAuthGuard)
   @Post('login')
   @ApiBody({
     type: UserLoginDto,
