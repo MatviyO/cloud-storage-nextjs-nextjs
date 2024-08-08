@@ -19,6 +19,7 @@ const update_file_dto_1 = require("./dto/update-file.dto");
 const swagger_1 = require("@nestjs/swagger");
 const platform_express_1 = require("@nestjs/platform-express");
 const storage_1 = require("./storage");
+const jwt_guard_1 = require("../auth/guards/jwt.guard");
 let FilesController = class FilesController {
     constructor(filesService) {
         this.filesService = filesService;
@@ -95,6 +96,7 @@ __decorate([
 exports.FilesController = FilesController = __decorate([
     (0, common_1.Controller)('files'),
     (0, swagger_1.ApiTags)('Files'),
+    (0, common_1.UseGuards)(jwt_guard_1.JwtAuthGuard),
     __metadata("design:paramtypes", [files_service_1.FilesService])
 ], FilesController);
 //# sourceMappingURL=files.controller.js.map
