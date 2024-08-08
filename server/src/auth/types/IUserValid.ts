@@ -7,3 +7,7 @@ export interface IUserRegister extends Pick<UserEntity, 'email' | 'fullName'> {
 }
 
 export interface IUserLogin extends Pick<UserEntity, 'email' | 'password'> {}
+
+export interface IAuth {
+  token: string;
+}

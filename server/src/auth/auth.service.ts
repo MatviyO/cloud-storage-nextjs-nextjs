@@ -4,7 +4,7 @@ import {
   Injectable,
 } from '@nestjs/common';
 import { UsersService } from '@app/users/users.service';
-import { IUserRegister, IUserValid } from '@app/auth/types/IUserValid';
+import { IAuth, IUserRegister, IUserValid } from '@app/auth/types/IUserValid';
 import { CreateUserDto } from '@app/users/dto/create-user.dto';
 import { JwtService } from '@nestjs/jwt';
 import { UserEntity } from '@app/users/entities/user.entity';
@@ -45,7 +45,7 @@ export class AuthService {
     }
   }
 
-  async login(user: UserEntity) {
+  async login(user: UserEntity): Promise<IAuth> {
     return {
       token: this.jwtService.sign({ email: user.email, id: user.id }),
     };
