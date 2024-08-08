@@ -1,5 +1,4 @@
 import { Controller, Post, UseGuards, Request, Body } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
 import { ApiBody } from '@nestjs/swagger';
 import { CreateUserDto } from '@app/users/dto/create-user.dto';
 import { AuthService } from '@app/auth/auth.service';
@@ -16,6 +15,7 @@ export class AuthController {
     type: UserLoginDto,
   })
   async login(@Request() req) {
+    console.log(req, 'req');
     return await this.authService.login(req.user);
   }
 
