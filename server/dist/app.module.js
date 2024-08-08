@@ -17,7 +17,11 @@ const user_entity_1 = require("./users/entities/user.entity");
 const file_entity_1 = require("./files/entities/file.entity");
 const config_1 = require("@nestjs/config");
 const auth_module_1 = require("./auth/auth.module");
+const logging_middleware_1 = require("./logger/logging.middleware");
 let AppModule = class AppModule {
+    configure(consumer) {
+        consumer.apply(logging_middleware_1.LoggingMiddleware).forRoutes('*');
+    }
 };
 exports.AppModule = AppModule;
 exports.AppModule = AppModule = __decorate([

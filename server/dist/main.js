@@ -5,8 +5,12 @@ const app_module_1 = require("./app.module");
 const swagger_1 = require("@nestjs/swagger");
 const express = require("express");
 const path_1 = require("path");
+const winston_logger_1 = require("./logger/winston.logger");
 async function bootstrap() {
-    const app = await core_1.NestFactory.create(app_module_1.AppModule, { cors: false });
+    const app = await core_1.NestFactory.create(app_module_1.AppModule, {
+        cors: false,
+        logger: new winston_logger_1.WinstonLogger(),
+    });
     app.enableCors({ credentials: true, origin: true });
     app.use('/uploads', express.static((0, path_1.join)(__dirname, '..', 'uploads')));
     const config = new swagger_1.DocumentBuilder()

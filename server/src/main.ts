@@ -3,9 +3,13 @@ import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import * as express from 'express';
 import { join } from 'path';
+import { WinstonLogger } from '@app/logger/winston.logger';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { cors: false });
+  const app = await NestFactory.create(AppModule, {
+    cors: false,
+    logger: new WinstonLogger(),
+  });
 
   app.enableCors({ credentials: true, origin: true });
   //middlewares
