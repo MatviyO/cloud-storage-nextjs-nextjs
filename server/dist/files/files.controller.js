@@ -19,7 +19,8 @@ const update_file_dto_1 = require("./dto/update-file.dto");
 const swagger_1 = require("@nestjs/swagger");
 const platform_express_1 = require("@nestjs/platform-express");
 const storage_1 = require("./storage");
-const jwt_guard_1 = require("../auth/guards/jwt.guard");
+const auth_decorator_1 = require("../auth/decorators/auth.decorator");
+const controller_with_api_tags_decorator_1 = require("../auth/decorators/controller-with-api-tags.decorator");
 let FilesController = class FilesController {
     constructor(filesService) {
         this.filesService = filesService;
@@ -94,9 +95,8 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], FilesController.prototype, "remove", null);
 exports.FilesController = FilesController = __decorate([
-    (0, common_1.Controller)('files'),
-    (0, swagger_1.ApiTags)('Files'),
-    (0, common_1.UseGuards)(jwt_guard_1.JwtAuthGuard),
+    (0, controller_with_api_tags_decorator_1.ControllerWithApiTags)('files'),
+    (0, auth_decorator_1.AuthGuardWithBearer)(),
     __metadata("design:paramtypes", [files_service_1.FilesService])
 ], FilesController);
 //# sourceMappingURL=files.controller.js.map

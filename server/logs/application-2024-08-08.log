@@ -156,3 +156,437 @@
 2024-08-08T20:07:23.285Z info: Mapped {/auth/register, POST} route
 2024-08-08T20:07:23.287Z info: Nest application successfully started
 2024-08-08T20:07:35.761Z info: POST /auth/register 409 487ms
+2024-08-08T20:09:30.271Z info: Starting Nest application...
+2024-08-08T20:09:30.289Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:30.290Z info: PassportModule dependencies initialized
+2024-08-08T20:09:30.290Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:09:30.290Z info: AppModule dependencies initialized
+2024-08-08T20:09:30.290Z info: ConfigModule dependencies initialized
+2024-08-08T20:09:30.290Z info: ConfigModule dependencies initialized
+2024-08-08T20:09:30.291Z info: JwtModule dependencies initialized
+2024-08-08T20:09:32.351Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:09:32.352Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:32.353Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:32.355Z info: UsersModule dependencies initialized
+2024-08-08T20:09:32.356Z info: FilesModule dependencies initialized
+2024-08-08T20:09:32.357Z info: AuthModule dependencies initialized
+2024-08-08T20:09:32.377Z info: AppController {/}:
+2024-08-08T20:09:32.377Z info: FilesController {/files}:
+2024-08-08T20:09:32.379Z info: Mapped {/files, POST} route
+2024-08-08T20:09:32.380Z info: Mapped {/files, GET} route
+2024-08-08T20:09:32.380Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:09:32.380Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:09:32.381Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:09:32.381Z info: UsersController {/users}:
+2024-08-08T20:09:32.381Z info: Mapped {/users, POST} route
+2024-08-08T20:09:32.381Z info: Mapped {/users, GET} route
+2024-08-08T20:09:32.382Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:09:32.382Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:09:32.382Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:09:32.382Z info: AuthController {/auth}:
+2024-08-08T20:09:32.383Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:09:32.383Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:09:32.385Z info: Nest application successfully started
+2024-08-08T20:09:43.176Z info: Starting Nest application...
+2024-08-08T20:09:43.195Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:43.195Z info: PassportModule dependencies initialized
+2024-08-08T20:09:43.195Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:09:43.195Z info: AppModule dependencies initialized
+2024-08-08T20:09:43.196Z info: ConfigModule dependencies initialized
+2024-08-08T20:09:43.196Z info: ConfigModule dependencies initialized
+2024-08-08T20:09:43.196Z info: JwtModule dependencies initialized
+2024-08-08T20:09:45.238Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:09:45.240Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:45.241Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:09:45.243Z info: UsersModule dependencies initialized
+2024-08-08T20:09:45.244Z info: FilesModule dependencies initialized
+2024-08-08T20:09:45.244Z info: AuthModule dependencies initialized
+2024-08-08T20:09:45.267Z info: AppController {/}:
+2024-08-08T20:09:45.267Z info: FilesController {/files}:
+2024-08-08T20:09:45.269Z info: Mapped {/files, POST} route
+2024-08-08T20:09:45.270Z info: Mapped {/files, GET} route
+2024-08-08T20:09:45.270Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:09:45.271Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:09:45.271Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:09:45.271Z info: UsersController {/users}:
+2024-08-08T20:09:45.271Z info: Mapped {/users, POST} route
+2024-08-08T20:09:45.272Z info: Mapped {/users, GET} route
+2024-08-08T20:09:45.272Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:09:45.272Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:09:45.273Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:09:45.273Z info: AuthController {/auth}:
+2024-08-08T20:09:45.273Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:09:45.273Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:09:45.275Z info: Nest application successfully started
+2024-08-08T20:17:12.794Z info: Starting Nest application...
+2024-08-08T20:17:12.813Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:17:12.813Z info: PassportModule dependencies initialized
+2024-08-08T20:17:12.814Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:17:12.814Z info: AppModule dependencies initialized
+2024-08-08T20:17:12.814Z info: ConfigModule dependencies initialized
+2024-08-08T20:17:12.814Z info: ConfigModule dependencies initialized
+2024-08-08T20:17:12.814Z info: JwtModule dependencies initialized
+2024-08-08T20:17:14.985Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:17:14.986Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:17:14.987Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:17:14.988Z info: UsersModule dependencies initialized
+2024-08-08T20:17:14.988Z info: FilesModule dependencies initialized
+2024-08-08T20:17:14.989Z info: AuthModule dependencies initialized
+2024-08-08T20:17:15.006Z info: AppController {/}:
+2024-08-08T20:17:15.006Z info: FilesController {/files}:
+2024-08-08T20:17:15.007Z info: Mapped {/files, POST} route
+2024-08-08T20:17:15.008Z info: Mapped {/files, GET} route
+2024-08-08T20:17:15.008Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:17:15.008Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:17:15.009Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:17:15.009Z info: UsersController {/users}:
+2024-08-08T20:17:15.009Z info: Mapped {/users, POST} route
+2024-08-08T20:17:15.009Z info: Mapped {/users, GET} route
+2024-08-08T20:17:15.009Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:17:15.010Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:17:15.010Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:17:15.010Z info: AuthController {/auth}:
+2024-08-08T20:17:15.010Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:17:15.010Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:17:15.012Z info: Nest application successfully started
+2024-08-08T20:18:40.132Z info: Starting Nest application...
+2024-08-08T20:18:40.150Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:18:40.151Z info: PassportModule dependencies initialized
+2024-08-08T20:18:40.151Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:18:40.151Z info: AppModule dependencies initialized
+2024-08-08T20:18:40.151Z info: ConfigModule dependencies initialized
+2024-08-08T20:18:40.151Z info: ConfigModule dependencies initialized
+2024-08-08T20:18:40.152Z info: JwtModule dependencies initialized
+2024-08-08T20:18:42.254Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:18:42.255Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:18:42.255Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:18:42.256Z info: UsersModule dependencies initialized
+2024-08-08T20:18:42.257Z info: FilesModule dependencies initialized
+2024-08-08T20:18:42.257Z info: AuthModule dependencies initialized
+2024-08-08T20:18:42.272Z info: AppController {/}:
+2024-08-08T20:18:42.272Z info: FilesController {/files}:
+2024-08-08T20:18:42.273Z info: Mapped {/files, POST} route
+2024-08-08T20:18:42.273Z info: Mapped {/files, GET} route
+2024-08-08T20:18:42.274Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:18:42.274Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:18:42.275Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:18:42.275Z info: UsersController {/users}:
+2024-08-08T20:18:42.275Z info: Mapped {/users, POST} route
+2024-08-08T20:18:42.275Z info: Mapped {/users, GET} route
+2024-08-08T20:18:42.276Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:18:42.276Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:18:42.277Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:18:42.277Z info: AuthController {/auth}:
+2024-08-08T20:18:42.277Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:18:42.277Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:18:42.279Z info: Nest application successfully started
+2024-08-08T20:19:38.768Z info: Starting Nest application...
+2024-08-08T20:19:38.786Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:38.786Z info: PassportModule dependencies initialized
+2024-08-08T20:19:38.786Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:19:38.786Z info: AppModule dependencies initialized
+2024-08-08T20:19:38.786Z info: ConfigModule dependencies initialized
+2024-08-08T20:19:38.786Z info: ConfigModule dependencies initialized
+2024-08-08T20:19:38.787Z info: JwtModule dependencies initialized
+2024-08-08T20:19:40.930Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:19:40.932Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:40.932Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:40.934Z info: UsersModule dependencies initialized
+2024-08-08T20:19:40.935Z info: FilesModule dependencies initialized
+2024-08-08T20:19:40.936Z info: AuthModule dependencies initialized
+2024-08-08T20:19:40.958Z info: AppController {/}:
+2024-08-08T20:19:40.959Z info: FilesController {/files}:
+2024-08-08T20:19:40.961Z info: Mapped {/files, POST} route
+2024-08-08T20:19:40.961Z info: Mapped {/files, GET} route
+2024-08-08T20:19:40.962Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:19:40.962Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:19:40.963Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:19:40.963Z info: UsersController {/users}:
+2024-08-08T20:19:40.963Z info: Mapped {/users, POST} route
+2024-08-08T20:19:40.963Z info: Mapped {/users, GET} route
+2024-08-08T20:19:40.963Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:19:40.964Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:19:40.964Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:19:40.964Z info: AuthController {/auth}:
+2024-08-08T20:19:40.964Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:19:40.965Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:19:40.967Z info: Nest application successfully started
+2024-08-08T20:19:46.830Z info: Starting Nest application...
+2024-08-08T20:19:46.849Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:46.849Z info: PassportModule dependencies initialized
+2024-08-08T20:19:46.849Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:19:46.850Z info: AppModule dependencies initialized
+2024-08-08T20:19:46.850Z info: ConfigModule dependencies initialized
+2024-08-08T20:19:46.850Z info: ConfigModule dependencies initialized
+2024-08-08T20:19:46.850Z info: JwtModule dependencies initialized
+2024-08-08T20:19:48.865Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:19:48.867Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:48.868Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:19:48.871Z info: UsersModule dependencies initialized
+2024-08-08T20:19:48.872Z info: FilesModule dependencies initialized
+2024-08-08T20:19:48.873Z info: AuthModule dependencies initialized
+2024-08-08T20:19:48.893Z info: AppController {/}:
+2024-08-08T20:19:48.894Z info: FilesController {/files}:
+2024-08-08T20:19:48.895Z info: Mapped {/files, POST} route
+2024-08-08T20:19:48.896Z info: Mapped {/files, GET} route
+2024-08-08T20:19:48.896Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:19:48.896Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:19:48.897Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:19:48.897Z info: UsersController {/users}:
+2024-08-08T20:19:48.897Z info: Mapped {/users, POST} route
+2024-08-08T20:19:48.897Z info: Mapped {/users, GET} route
+2024-08-08T20:19:48.898Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:19:48.898Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:19:48.898Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:19:48.898Z info: AuthController {/auth}:
+2024-08-08T20:19:48.899Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:19:48.899Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:19:48.901Z info: Nest application successfully started
+2024-08-08T20:20:04.002Z info: Starting Nest application...
+2024-08-08T20:20:04.020Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:04.021Z info: PassportModule dependencies initialized
+2024-08-08T20:20:04.021Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:20:04.021Z info: AppModule dependencies initialized
+2024-08-08T20:20:04.021Z info: ConfigModule dependencies initialized
+2024-08-08T20:20:04.021Z info: ConfigModule dependencies initialized
+2024-08-08T20:20:04.022Z info: JwtModule dependencies initialized
+2024-08-08T20:20:06.076Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:20:06.077Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:06.078Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:06.080Z info: UsersModule dependencies initialized
+2024-08-08T20:20:06.081Z info: FilesModule dependencies initialized
+2024-08-08T20:20:06.081Z info: AuthModule dependencies initialized
+2024-08-08T20:20:06.102Z info: AppController {/}:
+2024-08-08T20:20:06.102Z info: FilesController {/files}:
+2024-08-08T20:20:06.104Z info: Mapped {/files, POST} route
+2024-08-08T20:20:06.104Z info: Mapped {/files, GET} route
+2024-08-08T20:20:06.104Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:20:06.105Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:20:06.105Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:20:06.105Z info: UsersController {/users}:
+2024-08-08T20:20:06.106Z info: Mapped {/users, POST} route
+2024-08-08T20:20:06.106Z info: Mapped {/users, GET} route
+2024-08-08T20:20:06.106Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:20:06.107Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:20:06.107Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:20:06.107Z info: AuthController {/auth}:
+2024-08-08T20:20:06.107Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:20:06.107Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:20:06.109Z info: Nest application successfully started
+2024-08-08T20:20:25.214Z info: Starting Nest application...
+2024-08-08T20:20:25.233Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:25.233Z info: PassportModule dependencies initialized
+2024-08-08T20:20:25.233Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:20:25.233Z info: AppModule dependencies initialized
+2024-08-08T20:20:25.234Z info: ConfigModule dependencies initialized
+2024-08-08T20:20:25.234Z info: ConfigModule dependencies initialized
+2024-08-08T20:20:25.234Z info: JwtModule dependencies initialized
+2024-08-08T20:20:27.388Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:20:27.390Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:27.390Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:20:27.393Z info: UsersModule dependencies initialized
+2024-08-08T20:20:27.394Z info: FilesModule dependencies initialized
+2024-08-08T20:20:27.394Z info: AuthModule dependencies initialized
+2024-08-08T20:20:27.416Z info: AppController {/}:
+2024-08-08T20:20:27.416Z info: FilesController {/files}:
+2024-08-08T20:20:27.418Z info: Mapped {/files, POST} route
+2024-08-08T20:20:27.419Z info: Mapped {/files, GET} route
+2024-08-08T20:20:27.419Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:20:27.419Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:20:27.420Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:20:27.420Z info: UsersController {/users}:
+2024-08-08T20:20:27.420Z info: Mapped {/users, POST} route
+2024-08-08T20:20:27.421Z info: Mapped {/users, GET} route
+2024-08-08T20:20:27.421Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:20:27.421Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:20:27.421Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:20:27.421Z info: AuthController {/auth}:
+2024-08-08T20:20:27.422Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:20:27.422Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:20:27.424Z info: Nest application successfully started
+2024-08-08T20:22:18.798Z info: Starting Nest application...
+2024-08-08T20:22:18.818Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:18.818Z info: PassportModule dependencies initialized
+2024-08-08T20:22:18.819Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:22:18.819Z info: AppModule dependencies initialized
+2024-08-08T20:22:18.819Z info: ConfigModule dependencies initialized
+2024-08-08T20:22:18.819Z info: ConfigModule dependencies initialized
+2024-08-08T20:22:18.819Z info: JwtModule dependencies initialized
+2024-08-08T20:22:21.298Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:22:21.299Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:21.299Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:21.300Z info: UsersModule dependencies initialized
+2024-08-08T20:22:21.301Z info: FilesModule dependencies initialized
+2024-08-08T20:22:21.301Z info: AuthModule dependencies initialized
+2024-08-08T20:22:21.313Z info: AppController {/}:
+2024-08-08T20:22:21.313Z info: FilesController {/files}:
+2024-08-08T20:22:21.314Z info: Mapped {/files, POST} route
+2024-08-08T20:22:21.315Z info: Mapped {/files, GET} route
+2024-08-08T20:22:21.315Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:22:21.315Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:22:21.316Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:22:21.316Z info: UsersController {/users}:
+2024-08-08T20:22:21.316Z info: Mapped {/users, POST} route
+2024-08-08T20:22:21.316Z info: Mapped {/users, GET} route
+2024-08-08T20:22:21.317Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:22:21.317Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:22:21.317Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:22:21.317Z info: AuthController {/auth}:
+2024-08-08T20:22:21.317Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:22:21.317Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:22:21.319Z info: Nest application successfully started
+2024-08-08T20:22:32.917Z info: Starting Nest application...
+2024-08-08T20:22:32.936Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:32.936Z info: PassportModule dependencies initialized
+2024-08-08T20:22:32.936Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:22:32.937Z info: AppModule dependencies initialized
+2024-08-08T20:22:32.937Z info: ConfigModule dependencies initialized
+2024-08-08T20:22:32.937Z info: ConfigModule dependencies initialized
+2024-08-08T20:22:32.937Z info: JwtModule dependencies initialized
+2024-08-08T20:22:34.962Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:22:34.963Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:34.964Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:22:34.965Z info: UsersModule dependencies initialized
+2024-08-08T20:22:34.966Z info: FilesModule dependencies initialized
+2024-08-08T20:22:34.966Z info: AuthModule dependencies initialized
+2024-08-08T20:22:34.985Z info: AppController {/}:
+2024-08-08T20:22:34.986Z info: FilesController {/files}:
+2024-08-08T20:22:34.987Z info: Mapped {/files, POST} route
+2024-08-08T20:22:34.988Z info: Mapped {/files, GET} route
+2024-08-08T20:22:34.988Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:22:34.989Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:22:34.989Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:22:34.989Z info: UsersController {/users}:
+2024-08-08T20:22:34.989Z info: Mapped {/users, POST} route
+2024-08-08T20:22:34.989Z info: Mapped {/users, GET} route
+2024-08-08T20:22:34.990Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:22:34.990Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:22:34.990Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:22:34.990Z info: AuthController {/auth}:
+2024-08-08T20:22:34.991Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:22:34.991Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:22:34.992Z info: Nest application successfully started
+2024-08-08T20:24:24.194Z info: Starting Nest application...
+2024-08-08T20:24:24.212Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:24:24.213Z info: PassportModule dependencies initialized
+2024-08-08T20:24:24.213Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:24:24.213Z info: AppModule dependencies initialized
+2024-08-08T20:24:24.213Z info: ConfigModule dependencies initialized
+2024-08-08T20:24:24.213Z info: ConfigModule dependencies initialized
+2024-08-08T20:24:24.214Z info: JwtModule dependencies initialized
+2024-08-08T20:24:26.351Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:24:26.353Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:24:26.354Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:24:26.356Z info: UsersModule dependencies initialized
+2024-08-08T20:24:26.357Z info: FilesModule dependencies initialized
+2024-08-08T20:24:26.358Z info: AuthModule dependencies initialized
+2024-08-08T20:24:26.381Z info: AppController {/}:
+2024-08-08T20:24:26.381Z info: FilesController {/files}:
+2024-08-08T20:24:26.383Z info: Mapped {/files, POST} route
+2024-08-08T20:24:26.383Z info: Mapped {/files, GET} route
+2024-08-08T20:24:26.384Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:24:26.384Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:24:26.385Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:24:26.385Z info: UsersController {/users}:
+2024-08-08T20:24:26.385Z info: Mapped {/users, POST} route
+2024-08-08T20:24:26.385Z info: Mapped {/users, GET} route
+2024-08-08T20:24:26.385Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:24:26.386Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:24:26.386Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:24:26.386Z info: AuthController {/auth}:
+2024-08-08T20:24:26.386Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:24:26.387Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:24:26.388Z info: Nest application successfully started
+2024-08-08T20:26:13.625Z info: Starting Nest application...
+2024-08-08T20:26:13.645Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:26:13.645Z info: PassportModule dependencies initialized
+2024-08-08T20:26:13.645Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:26:13.645Z info: AppModule dependencies initialized
+2024-08-08T20:26:13.646Z info: ConfigModule dependencies initialized
+2024-08-08T20:26:13.646Z info: ConfigModule dependencies initialized
+2024-08-08T20:26:13.646Z info: JwtModule dependencies initialized
+2024-08-08T20:26:15.730Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:26:15.731Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:26:15.732Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:26:15.735Z info: UsersModule dependencies initialized
+2024-08-08T20:26:15.736Z info: FilesModule dependencies initialized
+2024-08-08T20:26:15.736Z info: AuthModule dependencies initialized
+2024-08-08T20:26:15.757Z info: AppController {/}:
+2024-08-08T20:26:15.758Z info: FilesController {/files}:
+2024-08-08T20:26:15.760Z info: Mapped {/files, POST} route
+2024-08-08T20:26:15.760Z info: Mapped {/files, GET} route
+2024-08-08T20:26:15.761Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:26:15.761Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:26:15.762Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:26:15.762Z info: UsersController {/users}:
+2024-08-08T20:26:15.762Z info: Mapped {/users, POST} route
+2024-08-08T20:26:15.763Z info: Mapped {/users, GET} route
+2024-08-08T20:26:15.763Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:26:15.763Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:26:15.764Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:26:15.764Z info: AuthController {/auth}:
+2024-08-08T20:26:15.764Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:26:15.764Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:26:15.766Z info: Nest application successfully started
+2024-08-08T20:28:24.607Z info: Starting Nest application...
+2024-08-08T20:28:24.626Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:28:24.626Z info: PassportModule dependencies initialized
+2024-08-08T20:28:24.626Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:28:24.626Z info: AppModule dependencies initialized
+2024-08-08T20:28:24.627Z info: ConfigModule dependencies initialized
+2024-08-08T20:28:24.627Z info: ConfigModule dependencies initialized
+2024-08-08T20:28:24.627Z info: JwtModule dependencies initialized
+2024-08-08T20:28:26.815Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:28:26.816Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:28:26.816Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:28:26.817Z info: UsersModule dependencies initialized
+2024-08-08T20:28:26.817Z info: FilesModule dependencies initialized
+2024-08-08T20:28:26.817Z info: AuthModule dependencies initialized
+2024-08-08T20:28:26.829Z info: AppController {/}:
+2024-08-08T20:28:26.829Z info: FilesController {/files}:
+2024-08-08T20:28:26.830Z info: Mapped {/files, POST} route
+2024-08-08T20:28:26.830Z info: Mapped {/files, GET} route
+2024-08-08T20:28:26.831Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:28:26.831Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:28:26.831Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:28:26.831Z info: UsersController {/users}:
+2024-08-08T20:28:26.832Z info: Mapped {/users, POST} route
+2024-08-08T20:28:26.832Z info: Mapped {/users, GET} route
+2024-08-08T20:28:26.832Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:28:26.833Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:28:26.833Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:28:26.833Z info: AuthController {/auth}:
+2024-08-08T20:28:26.833Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:28:26.833Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:28:26.835Z info: Nest application successfully started
+2024-08-08T20:36:41.578Z info: Starting Nest application...
+2024-08-08T20:36:41.595Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:36:41.596Z info: PassportModule dependencies initialized
+2024-08-08T20:36:41.596Z info: ConfigHostModule dependencies initialized
+2024-08-08T20:36:41.596Z info: AppModule dependencies initialized
+2024-08-08T20:36:41.596Z info: ConfigModule dependencies initialized
+2024-08-08T20:36:41.596Z info: ConfigModule dependencies initialized
+2024-08-08T20:36:41.597Z info: JwtModule dependencies initialized
+2024-08-08T20:36:44.165Z info: TypeOrmCoreModule dependencies initialized
+2024-08-08T20:36:44.167Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:36:44.167Z info: TypeOrmModule dependencies initialized
+2024-08-08T20:36:44.169Z info: UsersModule dependencies initialized
+2024-08-08T20:36:44.170Z info: FilesModule dependencies initialized
+2024-08-08T20:36:44.171Z info: AuthModule dependencies initialized
+2024-08-08T20:36:44.193Z info: AppController {/}:
+2024-08-08T20:36:44.193Z info: FilesController {/files}:
+2024-08-08T20:36:44.195Z info: Mapped {/files, POST} route
+2024-08-08T20:36:44.195Z info: Mapped {/files, GET} route
+2024-08-08T20:36:44.196Z info: Mapped {/files/:id, GET} route
+2024-08-08T20:36:44.196Z info: Mapped {/files/:id, PATCH} route
+2024-08-08T20:36:44.197Z info: Mapped {/files/:id, DELETE} route
+2024-08-08T20:36:44.197Z info: UsersController {/users}:
+2024-08-08T20:36:44.197Z info: Mapped {/users, POST} route
+2024-08-08T20:36:44.197Z info: Mapped {/users, GET} route
+2024-08-08T20:36:44.198Z info: Mapped {/users/:id, GET} route
+2024-08-08T20:36:44.198Z info: Mapped {/users/:id, PATCH} route
+2024-08-08T20:36:44.198Z info: Mapped {/users/:id, DELETE} route
+2024-08-08T20:36:44.198Z info: AuthController {/auth}:
+2024-08-08T20:36:44.199Z info: Mapped {/auth/login, POST} route
+2024-08-08T20:36:44.199Z info: Mapped {/auth/register, POST} route
+2024-08-08T20:36:44.201Z info: Nest application successfully started

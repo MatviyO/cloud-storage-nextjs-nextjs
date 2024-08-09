@@ -16,8 +16,8 @@ exports.UsersController = void 0;
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
-const swagger_1 = require("@nestjs/swagger");
 const update_user_dto_1 = require("./dto/update-user.dto");
+const controller_with_api_tags_decorator_1 = require("../auth/decorators/controller-with-api-tags.decorator");
 let UsersController = class UsersController {
     constructor(usersService) {
         this.usersService = usersService;
@@ -75,8 +75,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], UsersController.prototype, "remove", null);
 exports.UsersController = UsersController = __decorate([
-    (0, common_1.Controller)('users'),
-    (0, swagger_1.ApiTags)("Users"),
+    (0, controller_with_api_tags_decorator_1.ControllerWithApiTags)('users'),
     __metadata("design:paramtypes", [users_service_1.UsersService])
 ], UsersController);
 //# sourceMappingURL=users.controller.js.map

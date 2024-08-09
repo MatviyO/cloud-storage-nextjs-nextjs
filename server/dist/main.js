@@ -16,9 +16,14 @@ async function bootstrap() {
     const config = new swagger_1.DocumentBuilder()
         .setTitle('API Server')
         .setVersion('1.0')
+        .addBearerAuth()
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, config);
-    swagger_1.SwaggerModule.setup('swagger', app, document);
+    swagger_1.SwaggerModule.setup('swagger', app, document, {
+        swaggerOptions: {
+            persistAuthorization: true,
+        },
+    });
     await app.listen(4433);
 }
 bootstrap().then(() => {
