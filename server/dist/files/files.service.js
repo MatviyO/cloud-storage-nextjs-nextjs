@@ -21,8 +21,14 @@ let FilesService = class FilesService {
     constructor(fileRepository) {
         this.fileRepository = fileRepository;
     }
-    create(createFileDto) {
-        return 'This action adds a new file';
+    create(file, userId) {
+        return this.fileRepository.save({
+            fileName: file.filename,
+            originalName: file.originalname,
+            size: file.size,
+            mimetype: file.mimetype,
+            user: { id: userId },
+        });
     }
     findAll() {
         return this.fileRepository.find();

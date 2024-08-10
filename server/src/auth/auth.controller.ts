@@ -15,7 +15,6 @@ export class AuthController {
     type: UserLoginDto,
   })
   async login(@Request() req) {
-    console.log(req, 'req');
     return await this.authService.login(req.user);
   }
 

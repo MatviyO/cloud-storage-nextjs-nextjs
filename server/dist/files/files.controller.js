@@ -14,19 +14,20 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FilesController = void 0;
 const common_1 = require("@nestjs/common");
-const files_service_1 = require("./files.service");
-const update_file_dto_1 = require("./dto/update-file.dto");
 const swagger_1 = require("@nestjs/swagger");
 const platform_express_1 = require("@nestjs/platform-express");
 const storage_1 = require("./storage");
-const auth_decorator_1 = require("../auth/decorators/auth.decorator");
 const controller_with_api_tags_decorator_1 = require("../auth/decorators/controller-with-api-tags.decorator");
+const user_id_decorator_1 = require("../auth/decorators/user-id.decorator");
+const auth_decorator_1 = require("../auth/decorators/auth.decorator");
+const files_service_1 = require("./files.service");
+const update_file_dto_1 = require("./dto/update-file.dto");
 let FilesController = class FilesController {
     constructor(filesService) {
         this.filesService = filesService;
     }
-    create(file) {
-        return file;
+    create(file, userId) {
+        return this.filesService.create(file, userId);
     }
     findAll() {
         return this.filesService.findAll();
@@ -62,8 +63,9 @@ __decorate([
     __param(0, (0, common_1.UploadedFile)(new common_1.ParseFilePipe({
         validators: [new common_1.MaxFileSizeValidator({ maxSize: 1024 * 1024 * 5 })],
     }))),
+    __param(1, (0, user_id_decorator_1.UserId)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", void 0)
 ], FilesController.prototype, "create", null);
 __decorate([

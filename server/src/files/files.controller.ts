@@ -1,5 +1,4 @@
 import {
-  Controller,
   Get,
   Post,
   Body,
@@ -11,13 +10,15 @@ import {
   ParseFilePipe,
   MaxFileSizeValidator,
 } from '@nestjs/common';
-import { FilesService } from './files.service';
-import { UpdateFileDto } from './dto/update-file.dto';
 import { ApiBody, ApiConsumes } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
+
 import { fileStorage } from '@app/files/storage';
-import { AuthGuardWithBearer } from '@app/auth/decorators/auth.decorator';
 import { ControllerWithApiTags } from '@app/auth/decorators/controller-with-api-tags.decorator';
+import { UserId } from '@app/auth/decorators/user-id.decorator';
+import { AuthGuardWithBearer } from '@app/auth/decorators/auth.decorator';
+import { FilesService } from '@app/files/files.service';
+import { UpdateFileDto } from '@app/files/dto/update-file.dto';
 
 @ControllerWithApiTags('files')
 @AuthGuardWithBearer()
@@ -49,8 +50,9 @@ export class FilesController {
       }),
     )
     file: Express.Multer.File,
+    @UserId() userId: string,
   ) {
-    return file;
+    return this.filesService.create(file, userId);
   }
 
   @Get()

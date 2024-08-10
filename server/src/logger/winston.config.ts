@@ -6,7 +6,7 @@ const logFormat = winston.format.printf(({ level, message, timestamp }) => {
 });
 
 const colorizedFormat = winston.format.combine(
-  winston.format.colorize(),  // Додаємо кольори
+  winston.format.colorize(),
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
   winston.format.printf(({ timestamp, level, message }) => {
     return `${timestamp} ${level}: ${message}`;
