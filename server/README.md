@@ -70,5 +70,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
+
+## ENV 
+DB_HOST=
+DB_PORT=5432
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+JWT_SECRET=
+JWT_EXPIRATION_TIME=30
+
 ## Documentation
 Files saved in folder ./uploads and db
