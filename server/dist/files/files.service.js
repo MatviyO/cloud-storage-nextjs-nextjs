@@ -17,6 +17,7 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const file_entity_1 = require("./entities/file.entity");
 const typeorm_2 = require("typeorm");
+const FileType_1 = require("./types/FileType");
 let FilesService = class FilesService {
     constructor(fileRepository) {
         this.fileRepository = fileRepository;
@@ -30,8 +31,16 @@ let FilesService = class FilesService {
             user: { id: userId },
         });
     }
-    findAll() {
-        return this.fileRepository.find();
+    findAll(userId, fileType) {
+        const qb = this.fileRepository.createQueryBuilder('file');
+        qb.where('file.userId = :userId', { userId });
+        if (fileType === FileType_1.FileType.IMAGE) {
+            qb.andWhere('file.mimetype ILIKE :type', { type: '%image%' });
+        }
+        if (fileType === FileType_1.FileType.TRASH) {
+            qb.withDeleted().andWhere('file.deletedAt IS NOT NULL');
+        }
+        return qb.getMany();
     }
     findOne(id) {
         return `This action returns a #${id} file`;
@@ -39,8 +48,14 @@ let FilesService = class FilesService {
     update(id, updateFileDto) {
         return `This action updates a #${id} file`;
     }
-    remove(id) {
-        return `This action removes a #${id} file`;
+    async remove(userId, ids) {
+        const idsArray = ids.split(',');
+        const qb = this.fileRepository.createQueryBuilder('file');
+        qb.where('id IN (:ids) AND file.userId = :userId', {
+            ids: idsArray,
+            userId,
+        });
+        return qb.softDelete().execute();
     }
 };
 exports.FilesService = FilesService;

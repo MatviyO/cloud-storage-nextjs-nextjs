@@ -22,6 +22,7 @@ const user_id_decorator_1 = require("../auth/decorators/user-id.decorator");
 const auth_decorator_1 = require("../auth/decorators/auth.decorator");
 const files_service_1 = require("./files.service");
 const update_file_dto_1 = require("./dto/update-file.dto");
+const FileType_1 = require("./types/FileType");
 let FilesController = class FilesController {
     constructor(filesService) {
         this.filesService = filesService;
@@ -29,8 +30,8 @@ let FilesController = class FilesController {
     create(file, userId) {
         return this.filesService.create(file, userId);
     }
-    findAll() {
-        return this.filesService.findAll();
+    findAll(userId, fileType) {
+        return this.filesService.findAll(userId, fileType);
     }
     findOne(id) {
         return this.filesService.findOne(+id);
@@ -38,8 +39,8 @@ let FilesController = class FilesController {
     update(id, updateFileDto) {
         return this.filesService.update(+id, updateFileDto);
     }
-    remove(id) {
-        return this.filesService.remove(+id);
+    remove(userId, ids) {
+        return this.filesService.remove(userId, ids);
     }
 };
 exports.FilesController = FilesController;
@@ -70,8 +71,10 @@ __decorate([
 ], FilesController.prototype, "create", null);
 __decorate([
     (0, common_1.Get)(),
+    __param(0, (0, user_id_decorator_1.UserId)()),
+    __param(1, (0, common_1.Query)('fileType')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", void 0)
 ], FilesController.prototype, "findAll", null);
 __decorate([
@@ -90,10 +93,11 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], FilesController.prototype, "update", null);
 __decorate([
-    (0, common_1.Delete)(':id'),
-    __param(0, (0, common_1.Param)('id')),
+    (0, common_1.Delete)(),
+    __param(0, (0, user_id_decorator_1.UserId)()),
+    __param(1, (0, common_1.Query)('ids')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", void 0)
 ], FilesController.prototype, "remove", null);
 exports.FilesController = FilesController = __decorate([

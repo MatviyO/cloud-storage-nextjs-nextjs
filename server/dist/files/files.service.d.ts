@@ -1,6 +1,7 @@
 import { UpdateFileDto } from './dto/update-file.dto';
 import { FileEntity } from '@app/files/entities/file.entity';
 import { Repository } from 'typeorm';
+import { FileType } from '@app/files/types/FileType';
 export declare class FilesService {
     private fileRepository;
     constructor(fileRepository: Repository<FileEntity>);
@@ -13,8 +14,8 @@ export declare class FilesService {
             id: string;
         };
     } & FileEntity>;
-    findAll(): Promise<FileEntity[]>;
+    findAll(userId: string, fileType: FileType): Promise<FileEntity[]>;
     findOne(id: number): string;
     update(id: number, updateFileDto: UpdateFileDto): string;
-    remove(id: number): string;
+    remove(userId: string, ids: string): Promise<import("typeorm").UpdateResult>;
 }

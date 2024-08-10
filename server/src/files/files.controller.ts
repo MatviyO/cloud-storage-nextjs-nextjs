@@ -9,6 +9,7 @@ import {
   UploadedFile,
   ParseFilePipe,
   MaxFileSizeValidator,
+  Query,
 } from '@nestjs/common';
 import { ApiBody, ApiConsumes } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
@@ -19,6 +20,7 @@ import { UserId } from '@app/auth/decorators/user-id.decorator';
 import { AuthGuardWithBearer } from '@app/auth/decorators/auth.decorator';
 import { FilesService } from '@app/files/files.service';
 import { UpdateFileDto } from '@app/files/dto/update-file.dto';
+import { FileType } from '@app/files/types/FileType';
 
 @ControllerWithApiTags('files')
 @AuthGuardWithBearer()
@@ -56,8 +58,8 @@ export class FilesController {
   }
 
   @Get()
-  findAll() {
-    return this.filesService.findAll();
+  findAll(@UserId() userId: string, @Query('fileType') fileType: FileType) {
+    return this.filesService.findAll(userId, fileType);
   }
 
   @Get(':id')
@@ -70,8 +72,8 @@ export class FilesController {
     return this.filesService.update(+id, updateFileDto);
   }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.filesService.remove(+id);
+  @Delete()
+  remove(@UserId() userId: string, @Query('ids') ids: string) {
+    return this.filesService.remove(userId, ids);
   }
 }
