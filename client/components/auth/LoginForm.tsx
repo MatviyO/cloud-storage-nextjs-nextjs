@@ -16,7 +16,7 @@ export const LoginForm: FC = () => {
                 onFinish={onSubmit}
             >
                 <Form.Item
-                    label="E-Mail"
+                    label="Email"
                     name="email"
                     rules={[
                         {
@@ -29,7 +29,7 @@ export const LoginForm: FC = () => {
                 </Form.Item>
 
                 <Form.Item
-                    label="Пароль"
+                    label="Password"
                     name="password"
                     rules={[
                         {
