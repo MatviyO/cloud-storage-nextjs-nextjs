@@ -1,13 +1,13 @@
+"use client";
 import Head from "next/head";
 import {Tabs} from "antd";
 import {LoginForm} from "@/components/auth/LoginForm";
 
-const TABS = [
-    { key: "1", label: 'Login', children: <LoginForm />},
-    { key: "2", label: 'Registration', children: <h1>Registration</h1>},
-]
-
 export default function Page() {
+    const TABS = [
+        { key: "1", label: 'Login', children: <LoginForm />},
+        { key: "2", label: 'Registration', children: <h1>Registration</h1>},
+    ]
     return <>
          <Head>
             <title>Dashboard / Auth</title>
