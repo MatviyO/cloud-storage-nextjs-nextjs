@@ -1,25 +1,27 @@
 import {FC} from "react";
 import {Button, Form, Input, notification} from "antd";
-import {ILoginDTO} from "@/api/dto/ILoginDto";
 import { auth } from "@/api";
 import {setCookie} from "nookies";
 import styles from "./Auth.module.scss"
+import {IRegisterDTO} from "@/api/dto/IRegisterDto";
 
-export const LoginForm: FC = () => {
-    const onSubmit = async (values: ILoginDTO) => {
+export const RegistrationForm: FC = () => {
+    const onSubmit = async (values: IRegisterDTO) => {
         console.log(values)
         try {
-            const {token} = await auth.login(values);
+            const {token} = await auth.register(values);
 
             notification.success({
-                message: "Login",
-                description: "You have been logged in successfully",
+                message: "Register",
+                description: "You have been registered successfully",
             })
 
             setCookie(null, "_token", token, {
                 maxAge: 30 * 24 * 60 * 60,
                 path: "/",
             })
+
+            location.hash = '/dashboard'
         } catch (e) {
             console.log("LoginForm", e)
         }
@@ -40,6 +42,18 @@ export const LoginForm: FC = () => {
                         {
                             required: true,
                             message: "Enter email",
+                        },
+                    ]}
+                >
+                    <Input />
+                </Form.Item>
+                <Form.Item
+                    label="Enter Full Name"
+                    name="fullName"
+                    rules={[
+                        {
+                            required: true,
+                            message: "Enter Full Name",
                         },
                     ]}
                 >
@@ -66,7 +80,7 @@ export const LoginForm: FC = () => {
                     }}
                 >
                     <Button type="primary" htmlType="submit">
-                        Login
+                        Sign Up
                     </Button>
                 </Form.Item>
             </Form>
