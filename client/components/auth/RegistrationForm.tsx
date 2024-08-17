@@ -4,8 +4,10 @@ import { auth } from "@/api";
 import {setCookie} from "nookies";
 import styles from "./Auth.module.scss"
 import {IRegisterDTO} from "@/api/dto/IRegisterDto";
+import {useRouter} from "next/router";
 
 export const RegistrationForm: FC = () => {
+    const router = useRouter();
     const onSubmit = async (values: IRegisterDTO) => {
         console.log(values)
         try {
@@ -21,7 +23,7 @@ export const RegistrationForm: FC = () => {
                 path: "/",
             })
 
-            location.hash = '/dashboard'
+            await router.push('/dashboard');
         } catch (e) {
             console.log("LoginForm", e)
         }
