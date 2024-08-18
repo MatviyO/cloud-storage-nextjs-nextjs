@@ -1,19 +1,21 @@
-import axios from "axios";
 import {ILoginDTO, ILoginResponseDTO} from "@/api/dto/ILoginDto";
 import {IRegisterDTO, IRegisterResponseDTO} from "@/api/dto/IRegisterDto";
 import {IUser} from "@/api/dto/IUser";
 import {destroyCookie} from "nookies";
+import {Api} from "@/core/services/axios.service";
+
 
 export const login = async (form: ILoginDTO): Promise<ILoginResponseDTO> => {
-    return (await axios.post('auth/login', form))?.data;
+    return (await Api.post('auth/login', form))?.data;
 }
 
 export const register = async (form: IRegisterDTO): Promise<IRegisterResponseDTO> => {
-    return (await axios.post('auth/register', form))?.data;
+    return (await Api.post('auth/register', form))?.data;
 }
 
 export const getUser = async (): Promise<IUser> => {
-    return (await axios.get('users/me'))?.data;
+    console.log("call")
+    return (await Api.get('users/me'))?.data;
 }
 
 export const logout = async (): Promise<void> => {

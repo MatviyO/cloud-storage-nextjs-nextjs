@@ -1,7 +1,13 @@
-"use client";
 import Head from "next/head";
+import {GetServerSidePropsContext} from "next";
+import {getUser} from "@/api/auth";
 
-export default function Page() {
+export default async function Page() {
+    const user = await checkUser();
+    console.log(user, "user")
+    if (!user) {
+        location.href = "/login";
+    }
     return <>
          <Head>
             <title>Dashboard</title>
@@ -10,4 +16,19 @@ export default function Page() {
             <h1>Dashboard</h1>
         </main>
     </>
+}
+
+export async function checkUser() {
+    try {
+        const user = await getUser();
+        return user;
+    } catch (err) {
+        console.log(err);
+        return {
+            redirect: {
+                destination: "/login",
+                permanent: false,
+            },
+        };
+    }
 }

@@ -20,8 +20,15 @@ export const LoginForm: FC = () => {
                 maxAge: 30 * 24 * 60 * 60,
                 path: "/",
             })
-        } catch (e) {
-            console.log("LoginForm", e)
+            location.href = "/dashboard";
+        } catch (err) {
+            console.warn("LoginForm", err);
+
+            notification.error({
+                message: "Error",
+                description: "Wrong email or password",
+                duration: 2,
+            });
         }
     }
     return (

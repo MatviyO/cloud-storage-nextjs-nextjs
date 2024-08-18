@@ -1,0 +1,42 @@
+2024-08-18T10:26:09.242Z info: Starting Nest application...
+2024-08-18T10:26:09.267Z info: TypeOrmModule dependencies initialized
+2024-08-18T10:26:09.268Z info: PassportModule dependencies initialized
+2024-08-18T10:26:09.268Z info: ConfigHostModule dependencies initialized
+2024-08-18T10:26:09.268Z info: AppModule dependencies initialized
+2024-08-18T10:26:09.268Z info: ConfigModule dependencies initialized
+2024-08-18T10:26:09.269Z info: ConfigModule dependencies initialized
+2024-08-18T10:26:09.269Z info: JwtModule dependencies initialized
+2024-08-18T10:26:11.669Z info: TypeOrmCoreModule dependencies initialized
+2024-08-18T10:26:11.671Z info: TypeOrmModule dependencies initialized
+2024-08-18T10:26:11.672Z info: TypeOrmModule dependencies initialized
+2024-08-18T10:26:11.677Z info: FilesModule dependencies initialized
+2024-08-18T10:26:11.677Z info: UsersModule dependencies initialized
+2024-08-18T10:26:11.679Z info: AuthModule dependencies initialized
+2024-08-18T10:26:11.708Z info: AppController {/}:
+2024-08-18T10:26:11.708Z info: FilesController {/files}:
+2024-08-18T10:26:11.710Z info: Mapped {/files, POST} route
+2024-08-18T10:26:11.710Z info: Mapped {/files, GET} route
+2024-08-18T10:26:11.710Z info: Mapped {/files/:id, GET} route
+2024-08-18T10:26:11.710Z info: Mapped {/files/:id, PATCH} route
+2024-08-18T10:26:11.711Z info: Mapped {/files, DELETE} route
+2024-08-18T10:26:11.711Z info: UsersController {/users}:
+2024-08-18T10:26:11.711Z info: Mapped {/users, POST} route
+2024-08-18T10:26:11.711Z info: Mapped {/users, GET} route
+2024-08-18T10:26:11.711Z info: Mapped {/users/:id, GET} route
+2024-08-18T10:26:11.712Z info: Mapped {/users/me, GET} route
+2024-08-18T10:26:11.712Z info: Mapped {/users/:id, PATCH} route
+2024-08-18T10:26:11.712Z info: Mapped {/users/:id, DELETE} route
+2024-08-18T10:26:11.712Z info: AuthController {/auth}:
+2024-08-18T10:26:11.712Z info: Mapped {/auth/login, POST} route
+2024-08-18T10:26:11.712Z info: Mapped {/auth/register, POST} route
+2024-08-18T10:26:11.714Z info: Nest application successfully started
+2024-08-18T12:49:26.013Z info: POST /files 400 1008ms
+2024-08-18T12:57:03.033Z info: POST /auth/login 201 520ms
+2024-08-18T13:06:34.518Z info: POST /auth/register 409 517ms
+2024-08-18T13:06:49.008Z info: POST /auth/register 201 955ms
+2024-08-18T13:49:09.024Z info: GET /users/me 200 1ms
+2024-08-18T13:49:14.587Z info: GET /users/me 200 0ms
+2024-08-18T13:49:45.279Z info: GET /users/me 200 0ms
+2024-08-18T13:49:51.318Z info: GET /users/me 200 1ms
+2024-08-18T13:49:54.580Z info: GET /users/me 200 1ms
+2024-08-18T13:50:41.394Z info: GET /users/me 200 0ms
