@@ -31,7 +31,7 @@ let UsersController = class UsersController {
         return this.usersService.findAll();
     }
     findOne(id) {
-        return this.usersService.findOne(id);
+        return this.usersService.findById(id);
     }
     getMe(id) {
         return this.usersService.findById(id);

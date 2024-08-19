@@ -33,9 +33,6 @@ let UsersService = class UsersService {
     findAll() {
         return `This action returns all users`;
     }
-    findOne(id) {
-        return `This action returns a #${id} user`;
-    }
     update(id, updateUserDto) {
         return `This action updates a #${id} user`;
     }
