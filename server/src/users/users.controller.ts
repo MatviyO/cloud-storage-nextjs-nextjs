@@ -14,8 +14,10 @@ import { JwtAuthGuard } from '@app/auth/guards/jwt.guard';
 import { UserId } from '@app/auth/decorators/user-id.decorator';
 import { UsersService } from '@app/users/users.service';
 import { CreateUserDto } from '@app/users/dto/create-user.dto';
+import { AuthGuardWithBearer } from '@app/auth/decorators/auth.decorator';
 
 @ControllerWithApiTags('users')
+@AuthGuardWithBearer()
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
@@ -29,14 +31,15 @@ export class UsersController {
     return this.usersService.findAll();
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
+  @Get('/user')
+  @UseGuards(JwtAuthGuard)
+  getMe(@UserId() id: string) {
+    console.log('getMe method called');
     return this.usersService.findById(id);
   }
 
-  @Get('/me')
-  @UseGuards(JwtAuthGuard)
-  getMe(@UserId() id: string) {
+  @Get(':id')
+  findOne(@Param('id') id: string) {
     return this.usersService.findById(id);
   }
 
