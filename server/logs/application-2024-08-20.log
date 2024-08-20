@@ -1,0 +1,594 @@
+2024-08-20T07:44:02.765Z info: Starting Nest application...
+2024-08-20T07:44:02.790Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:44:02.791Z info: PassportModule dependencies initialized
+2024-08-20T07:44:02.791Z info: ConfigHostModule dependencies initialized
+2024-08-20T07:44:02.791Z info: AppModule dependencies initialized
+2024-08-20T07:44:02.791Z info: ConfigModule dependencies initialized
+2024-08-20T07:44:02.791Z info: ConfigModule dependencies initialized
+2024-08-20T07:44:02.792Z info: JwtModule dependencies initialized
+2024-08-20T07:44:05.631Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T07:44:05.632Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:44:05.632Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:44:05.633Z info: FilesModule dependencies initialized
+2024-08-20T07:44:05.634Z info: UsersModule dependencies initialized
+2024-08-20T07:44:05.634Z info: AuthModule dependencies initialized
+2024-08-20T07:44:05.645Z info: AppController {/}:
+2024-08-20T07:44:05.645Z info: FilesController {/files}:
+2024-08-20T07:44:05.646Z info: Mapped {/files, POST} route
+2024-08-20T07:44:05.647Z info: Mapped {/files, GET} route
+2024-08-20T07:44:05.647Z info: Mapped {/files/:id, GET} route
+2024-08-20T07:44:05.647Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T07:44:05.647Z info: Mapped {/files, DELETE} route
+2024-08-20T07:44:05.648Z info: UsersController {/users}:
+2024-08-20T07:44:05.648Z info: Mapped {/users, POST} route
+2024-08-20T07:44:05.648Z info: Mapped {/users, GET} route
+2024-08-20T07:44:05.648Z info: Mapped {/users/:id, GET} route
+2024-08-20T07:44:05.648Z info: Mapped {/users/me, GET} route
+2024-08-20T07:44:05.649Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T07:44:05.649Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T07:44:05.649Z info: AuthController {/auth}:
+2024-08-20T07:44:05.649Z info: Mapped {/auth/login, POST} route
+2024-08-20T07:44:05.649Z info: Mapped {/auth/register, POST} route
+2024-08-20T07:44:05.650Z info: Nest application successfully started
+2024-08-20T07:44:34.874Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T07:44:34.875Z info: GET /users/me 500 520ms
+2024-08-20T07:47:16.848Z info: Starting Nest application...
+2024-08-20T07:47:16.873Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:47:16.873Z info: PassportModule dependencies initialized
+2024-08-20T07:47:16.873Z info: ConfigHostModule dependencies initialized
+2024-08-20T07:47:16.874Z info: AppModule dependencies initialized
+2024-08-20T07:47:16.874Z info: ConfigModule dependencies initialized
+2024-08-20T07:47:16.874Z info: ConfigModule dependencies initialized
+2024-08-20T07:47:16.874Z info: JwtModule dependencies initialized
+2024-08-20T07:47:19.045Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T07:47:19.046Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:47:19.046Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:47:19.049Z info: FilesModule dependencies initialized
+2024-08-20T07:47:19.049Z info: UsersModule dependencies initialized
+2024-08-20T07:47:19.050Z info: AuthModule dependencies initialized
+2024-08-20T07:47:19.067Z info: AppController {/}:
+2024-08-20T07:47:19.068Z info: FilesController {/files}:
+2024-08-20T07:47:19.069Z info: Mapped {/files, POST} route
+2024-08-20T07:47:19.070Z info: Mapped {/files, GET} route
+2024-08-20T07:47:19.070Z info: Mapped {/files/:id, GET} route
+2024-08-20T07:47:19.070Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T07:47:19.071Z info: Mapped {/files, DELETE} route
+2024-08-20T07:47:19.071Z info: UsersController {/users}:
+2024-08-20T07:47:19.071Z info: Mapped {/users, POST} route
+2024-08-20T07:47:19.071Z info: Mapped {/users, GET} route
+2024-08-20T07:47:19.071Z info: Mapped {/users/:id, GET} route
+2024-08-20T07:47:19.072Z info: Mapped {/users/me, GET} route
+2024-08-20T07:47:19.072Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T07:47:19.072Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T07:47:19.072Z info: AuthController {/auth}:
+2024-08-20T07:47:19.073Z info: Mapped {/auth/login, POST} route
+2024-08-20T07:47:19.073Z info: Mapped {/auth/register, POST} route
+2024-08-20T07:47:19.074Z info: Nest application successfully started
+2024-08-20T07:47:32.549Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T07:47:32.550Z info: GET /users/me 500 555ms
+2024-08-20T07:48:05.036Z info: POST /auth/login 201 513ms
+2024-08-20T07:48:31.447Z info: GET /files?fileType=image 200 592ms
+2024-08-20T07:48:48.862Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T07:48:48.862Z info: GET /users/me 500 532ms
+2024-08-20T07:49:40.837Z info: Starting Nest application...
+2024-08-20T07:49:40.858Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:49:40.858Z info: PassportModule dependencies initialized
+2024-08-20T07:49:40.858Z info: ConfigHostModule dependencies initialized
+2024-08-20T07:49:40.858Z info: AppModule dependencies initialized
+2024-08-20T07:49:40.858Z info: ConfigModule dependencies initialized
+2024-08-20T07:49:40.858Z info: ConfigModule dependencies initialized
+2024-08-20T07:49:40.859Z info: JwtModule dependencies initialized
+2024-08-20T07:49:43.349Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T07:49:43.350Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:49:43.350Z info: TypeOrmModule dependencies initialized
+2024-08-20T07:49:43.352Z info: FilesModule dependencies initialized
+2024-08-20T07:49:43.353Z info: UsersModule dependencies initialized
+2024-08-20T07:49:43.353Z info: AuthModule dependencies initialized
+2024-08-20T07:49:43.371Z info: AppController {/}:
+2024-08-20T07:49:43.372Z info: FilesController {/files}:
+2024-08-20T07:49:43.373Z info: Mapped {/files, POST} route
+2024-08-20T07:49:43.373Z info: Mapped {/files, GET} route
+2024-08-20T07:49:43.374Z info: Mapped {/files/:id, GET} route
+2024-08-20T07:49:43.374Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T07:49:43.374Z info: Mapped {/files, DELETE} route
+2024-08-20T07:49:43.375Z info: UsersController {/users}:
+2024-08-20T07:49:43.375Z info: Mapped {/users, POST} route
+2024-08-20T07:49:43.375Z info: Mapped {/users, GET} route
+2024-08-20T07:49:43.375Z info: Mapped {/users/:id, GET} route
+2024-08-20T07:49:43.376Z info: Mapped {/users/me, GET} route
+2024-08-20T07:49:43.376Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T07:49:43.376Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T07:49:43.376Z info: AuthController {/auth}:
+2024-08-20T07:49:43.376Z info: Mapped {/auth/login, POST} route
+2024-08-20T07:49:43.377Z info: Mapped {/auth/register, POST} route
+2024-08-20T07:49:43.378Z info: Nest application successfully started
+2024-08-20T07:49:51.248Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T07:49:51.249Z info: GET /users/me 500 321ms
+2024-08-20T08:55:23.433Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T08:55:23.435Z info: GET /users/me 500 1081ms
+2024-08-20T08:55:38.706Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T08:55:38.707Z info: GET /users/me 500 596ms
+2024-08-20T08:58:26.305Z info: Starting Nest application...
+2024-08-20T08:58:26.328Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:58:26.329Z info: PassportModule dependencies initialized
+2024-08-20T08:58:26.329Z info: ConfigHostModule dependencies initialized
+2024-08-20T08:58:26.329Z info: AppModule dependencies initialized
+2024-08-20T08:58:26.329Z info: ConfigModule dependencies initialized
+2024-08-20T08:58:26.330Z info: ConfigModule dependencies initialized
+2024-08-20T08:58:26.330Z info: JwtModule dependencies initialized
+2024-08-20T08:58:28.409Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T08:58:28.411Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:58:28.411Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:58:28.413Z info: FilesModule dependencies initialized
+2024-08-20T08:58:28.414Z info: UsersModule dependencies initialized
+2024-08-20T08:58:28.414Z info: AuthModule dependencies initialized
+2024-08-20T08:58:28.433Z info: AppController {/}:
+2024-08-20T08:58:28.434Z info: FilesController {/files}:
+2024-08-20T08:58:28.435Z info: Mapped {/files, POST} route
+2024-08-20T08:58:28.435Z info: Mapped {/files, GET} route
+2024-08-20T08:58:28.436Z info: Mapped {/files/:id, GET} route
+2024-08-20T08:58:28.436Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T08:58:28.436Z info: Mapped {/files, DELETE} route
+2024-08-20T08:58:28.437Z info: UsersController {/users}:
+2024-08-20T08:58:28.437Z info: Mapped {/users, POST} route
+2024-08-20T08:58:28.437Z info: Mapped {/users, GET} route
+2024-08-20T08:58:28.437Z info: Mapped {/users/:id, GET} route
+2024-08-20T08:58:28.438Z info: Mapped {/users/me, GET} route
+2024-08-20T08:58:28.438Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T08:58:28.438Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T08:58:28.438Z info: AuthController {/auth}:
+2024-08-20T08:58:28.438Z info: Mapped {/auth/login, POST} route
+2024-08-20T08:58:28.439Z info: Mapped {/auth/register, POST} route
+2024-08-20T08:58:28.440Z info: Nest application successfully started
+2024-08-20T08:58:36.214Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T08:58:36.214Z info: GET /users/me 500 300ms
+2024-08-20T08:59:16.380Z info: Starting Nest application...
+2024-08-20T08:59:16.402Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:59:16.402Z info: PassportModule dependencies initialized
+2024-08-20T08:59:16.403Z info: ConfigHostModule dependencies initialized
+2024-08-20T08:59:16.403Z info: AppModule dependencies initialized
+2024-08-20T08:59:16.403Z info: ConfigModule dependencies initialized
+2024-08-20T08:59:16.403Z info: ConfigModule dependencies initialized
+2024-08-20T08:59:16.403Z info: JwtModule dependencies initialized
+2024-08-20T08:59:18.460Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T08:59:18.462Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:59:18.462Z info: TypeOrmModule dependencies initialized
+2024-08-20T08:59:18.465Z info: FilesModule dependencies initialized
+2024-08-20T08:59:18.466Z info: UsersModule dependencies initialized
+2024-08-20T08:59:18.466Z info: AuthModule dependencies initialized
+2024-08-20T08:59:18.487Z info: AppController {/}:
+2024-08-20T08:59:18.487Z info: FilesController {/files}:
+2024-08-20T08:59:18.489Z info: Mapped {/files, POST} route
+2024-08-20T08:59:18.490Z info: Mapped {/files, GET} route
+2024-08-20T08:59:18.490Z info: Mapped {/files/:id, GET} route
+2024-08-20T08:59:18.490Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T08:59:18.491Z info: Mapped {/files, DELETE} route
+2024-08-20T08:59:18.491Z info: UsersController {/users}:
+2024-08-20T08:59:18.491Z info: Mapped {/users, POST} route
+2024-08-20T08:59:18.491Z info: Mapped {/users, GET} route
+2024-08-20T08:59:18.491Z info: Mapped {/users/:id, GET} route
+2024-08-20T08:59:18.492Z info: Mapped {/users/me, GET} route
+2024-08-20T08:59:18.492Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T08:59:18.492Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T08:59:18.492Z info: AuthController {/auth}:
+2024-08-20T08:59:18.493Z info: Mapped {/auth/login, POST} route
+2024-08-20T08:59:18.493Z info: Mapped {/auth/register, POST} route
+2024-08-20T08:59:18.494Z info: Nest application successfully started
+2024-08-20T08:59:23.764Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T08:59:23.765Z info: GET /users/me 500 286ms
+2024-08-20T09:02:07.472Z info: Starting Nest application...
+2024-08-20T09:02:07.492Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:02:07.493Z info: PassportModule dependencies initialized
+2024-08-20T09:02:07.493Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:02:07.493Z info: AppModule dependencies initialized
+2024-08-20T09:02:07.493Z info: ConfigModule dependencies initialized
+2024-08-20T09:02:07.493Z info: ConfigModule dependencies initialized
+2024-08-20T09:02:07.494Z info: JwtModule dependencies initialized
+2024-08-20T09:02:10.032Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:02:10.034Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:02:10.035Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:02:10.038Z info: FilesModule dependencies initialized
+2024-08-20T09:02:10.038Z info: UsersModule dependencies initialized
+2024-08-20T09:02:10.038Z info: AuthModule dependencies initialized
+2024-08-20T09:02:10.059Z info: AppController {/}:
+2024-08-20T09:02:10.059Z info: FilesController {/files}:
+2024-08-20T09:02:10.061Z info: Mapped {/files, POST} route
+2024-08-20T09:02:10.061Z info: Mapped {/files, GET} route
+2024-08-20T09:02:10.062Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:02:10.062Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:02:10.062Z info: Mapped {/files, DELETE} route
+2024-08-20T09:02:10.062Z info: UsersController {/users}:
+2024-08-20T09:02:10.063Z info: Mapped {/users, POST} route
+2024-08-20T09:02:10.063Z info: Mapped {/users, GET} route
+2024-08-20T09:02:10.063Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:02:10.063Z info: Mapped {/users/me, GET} route
+2024-08-20T09:02:10.064Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:02:10.064Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:02:10.064Z info: AuthController {/auth}:
+2024-08-20T09:02:10.064Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:02:10.064Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:02:10.066Z info: Nest application successfully started
+2024-08-20T09:03:36.045Z info: Starting Nest application...
+2024-08-20T09:03:36.068Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:03:36.068Z info: PassportModule dependencies initialized
+2024-08-20T09:03:36.068Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:03:36.069Z info: AppModule dependencies initialized
+2024-08-20T09:03:36.069Z info: ConfigModule dependencies initialized
+2024-08-20T09:03:36.069Z info: ConfigModule dependencies initialized
+2024-08-20T09:03:36.069Z info: JwtModule dependencies initialized
+2024-08-20T09:03:38.088Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:03:38.090Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:03:38.090Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:03:38.092Z info: FilesModule dependencies initialized
+2024-08-20T09:03:38.092Z info: UsersModule dependencies initialized
+2024-08-20T09:03:38.093Z info: AuthModule dependencies initialized
+2024-08-20T09:03:38.113Z info: AppController {/}:
+2024-08-20T09:03:38.113Z info: FilesController {/files}:
+2024-08-20T09:03:38.115Z info: Mapped {/files, POST} route
+2024-08-20T09:03:38.115Z info: Mapped {/files, GET} route
+2024-08-20T09:03:38.116Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:03:38.116Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:03:38.117Z info: Mapped {/files, DELETE} route
+2024-08-20T09:03:38.117Z info: UsersController {/users}:
+2024-08-20T09:03:38.117Z info: Mapped {/users, POST} route
+2024-08-20T09:03:38.117Z info: Mapped {/users, GET} route
+2024-08-20T09:03:38.117Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:03:38.118Z info: Mapped {/users/me, GET} route
+2024-08-20T09:03:38.118Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:03:38.118Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:03:38.119Z info: AuthController {/auth}:
+2024-08-20T09:03:38.119Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:03:38.119Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:03:38.121Z info: Nest application successfully started
+2024-08-20T09:04:17.572Z info: Starting Nest application...
+2024-08-20T09:04:17.594Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:04:17.594Z info: PassportModule dependencies initialized
+2024-08-20T09:04:17.594Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:04:17.594Z info: AppModule dependencies initialized
+2024-08-20T09:04:17.594Z info: ConfigModule dependencies initialized
+2024-08-20T09:04:17.595Z info: ConfigModule dependencies initialized
+2024-08-20T09:04:17.595Z info: JwtModule dependencies initialized
+2024-08-20T09:04:19.698Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:04:19.698Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:04:19.699Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:04:19.700Z info: FilesModule dependencies initialized
+2024-08-20T09:04:19.700Z info: UsersModule dependencies initialized
+2024-08-20T09:04:19.701Z info: AuthModule dependencies initialized
+2024-08-20T09:04:19.713Z info: AppController {/}:
+2024-08-20T09:04:19.713Z info: FilesController {/files}:
+2024-08-20T09:04:19.714Z info: Mapped {/files, POST} route
+2024-08-20T09:04:19.715Z info: Mapped {/files, GET} route
+2024-08-20T09:04:19.715Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:04:19.716Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:04:19.716Z info: Mapped {/files, DELETE} route
+2024-08-20T09:04:19.716Z info: UsersController {/users}:
+2024-08-20T09:04:19.716Z info: Mapped {/users, POST} route
+2024-08-20T09:04:19.716Z info: Mapped {/users, GET} route
+2024-08-20T09:04:19.717Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:04:19.717Z info: Mapped {/users/me, GET} route
+2024-08-20T09:04:19.717Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:04:19.717Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:04:19.717Z info: AuthController {/auth}:
+2024-08-20T09:04:19.718Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:04:19.718Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:04:19.719Z info: Nest application successfully started
+2024-08-20T09:06:38.122Z info: Starting Nest application...
+2024-08-20T09:06:38.140Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:06:38.141Z info: PassportModule dependencies initialized
+2024-08-20T09:06:38.141Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:06:38.141Z info: AppModule dependencies initialized
+2024-08-20T09:06:38.141Z info: ConfigModule dependencies initialized
+2024-08-20T09:06:38.141Z info: ConfigModule dependencies initialized
+2024-08-20T09:06:38.142Z info: JwtModule dependencies initialized
+2024-08-20T09:06:40.179Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:06:40.180Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:06:40.181Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:06:40.184Z info: FilesModule dependencies initialized
+2024-08-20T09:06:40.184Z info: UsersModule dependencies initialized
+2024-08-20T09:06:40.185Z info: AuthModule dependencies initialized
+2024-08-20T09:06:40.204Z info: AppController {/}:
+2024-08-20T09:06:40.205Z info: FilesController {/files}:
+2024-08-20T09:06:40.207Z info: Mapped {/files, POST} route
+2024-08-20T09:06:40.207Z info: Mapped {/files, GET} route
+2024-08-20T09:06:40.208Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:06:40.208Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:06:40.208Z info: Mapped {/files, DELETE} route
+2024-08-20T09:06:40.209Z info: UsersController {/users}:
+2024-08-20T09:06:40.209Z info: Mapped {/users, POST} route
+2024-08-20T09:06:40.209Z info: Mapped {/users, GET} route
+2024-08-20T09:06:40.209Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:06:40.210Z info: Mapped {/users/me, GET} route
+2024-08-20T09:06:40.210Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:06:40.210Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:06:40.210Z info: AuthController {/auth}:
+2024-08-20T09:06:40.210Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:06:40.211Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:06:40.212Z info: Nest application successfully started
+2024-08-20T09:06:59.049Z info: Starting Nest application...
+2024-08-20T09:06:59.066Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:06:59.066Z info: PassportModule dependencies initialized
+2024-08-20T09:06:59.066Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:06:59.066Z info: AppModule dependencies initialized
+2024-08-20T09:06:59.067Z info: ConfigModule dependencies initialized
+2024-08-20T09:06:59.067Z info: ConfigModule dependencies initialized
+2024-08-20T09:06:59.067Z info: JwtModule dependencies initialized
+2024-08-20T09:07:01.001Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:07:01.002Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:01.002Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:01.003Z info: FilesModule dependencies initialized
+2024-08-20T09:07:01.004Z info: UsersModule dependencies initialized
+2024-08-20T09:07:01.004Z info: AuthModule dependencies initialized
+2024-08-20T09:07:01.019Z info: AppController {/}:
+2024-08-20T09:07:01.019Z info: FilesController {/files}:
+2024-08-20T09:07:01.020Z info: Mapped {/files, POST} route
+2024-08-20T09:07:01.021Z info: Mapped {/files, GET} route
+2024-08-20T09:07:01.021Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:07:01.021Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:07:01.022Z info: Mapped {/files, DELETE} route
+2024-08-20T09:07:01.022Z info: UsersController {/users}:
+2024-08-20T09:07:01.022Z info: Mapped {/users, POST} route
+2024-08-20T09:07:01.023Z info: Mapped {/users, GET} route
+2024-08-20T09:07:01.023Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:07:01.023Z info: Mapped {/users/me, GET} route
+2024-08-20T09:07:01.023Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:07:01.023Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:07:01.024Z info: AuthController {/auth}:
+2024-08-20T09:07:01.024Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:07:01.024Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:07:01.025Z info: Nest application successfully started
+2024-08-20T09:07:27.794Z info: Starting Nest application...
+2024-08-20T09:07:27.811Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:27.811Z info: PassportModule dependencies initialized
+2024-08-20T09:07:27.812Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:07:27.812Z info: AppModule dependencies initialized
+2024-08-20T09:07:27.812Z info: ConfigModule dependencies initialized
+2024-08-20T09:07:27.812Z info: ConfigModule dependencies initialized
+2024-08-20T09:07:27.812Z info: JwtModule dependencies initialized
+2024-08-20T09:07:30.128Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:07:30.129Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:30.129Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:30.131Z info: FilesModule dependencies initialized
+2024-08-20T09:07:30.131Z info: UsersModule dependencies initialized
+2024-08-20T09:07:30.131Z info: AuthModule dependencies initialized
+2024-08-20T09:07:30.143Z info: AppController {/}:
+2024-08-20T09:07:30.143Z info: FilesController {/files}:
+2024-08-20T09:07:30.144Z info: Mapped {/files, POST} route
+2024-08-20T09:07:30.145Z info: Mapped {/files, GET} route
+2024-08-20T09:07:30.145Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:07:30.145Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:07:30.145Z info: Mapped {/files, DELETE} route
+2024-08-20T09:07:30.146Z info: UsersController {/users}:
+2024-08-20T09:07:30.146Z info: Mapped {/users, POST} route
+2024-08-20T09:07:30.146Z info: Mapped {/users, GET} route
+2024-08-20T09:07:30.146Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:07:30.146Z info: Mapped {/users/me, GET} route
+2024-08-20T09:07:30.147Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:07:30.147Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:07:30.147Z info: AuthController {/auth}:
+2024-08-20T09:07:30.147Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:07:30.147Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:07:30.148Z info: Nest application successfully started
+2024-08-20T09:07:59.744Z info: Starting Nest application...
+2024-08-20T09:07:59.760Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:07:59.760Z info: PassportModule dependencies initialized
+2024-08-20T09:07:59.761Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:07:59.761Z info: AppModule dependencies initialized
+2024-08-20T09:07:59.761Z info: ConfigModule dependencies initialized
+2024-08-20T09:07:59.761Z info: ConfigModule dependencies initialized
+2024-08-20T09:07:59.762Z info: JwtModule dependencies initialized
+2024-08-20T09:08:01.760Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:08:01.761Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:08:01.761Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:08:01.763Z info: FilesModule dependencies initialized
+2024-08-20T09:08:01.763Z info: UsersModule dependencies initialized
+2024-08-20T09:08:01.763Z info: AuthModule dependencies initialized
+2024-08-20T09:08:01.774Z info: AppController {/}:
+2024-08-20T09:08:01.774Z info: FilesController {/files}:
+2024-08-20T09:08:01.775Z info: Mapped {/files, POST} route
+2024-08-20T09:08:01.776Z info: Mapped {/files, GET} route
+2024-08-20T09:08:01.776Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:08:01.776Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:08:01.777Z info: Mapped {/files, DELETE} route
+2024-08-20T09:08:01.777Z info: UsersController {/users}:
+2024-08-20T09:08:01.777Z info: Mapped {/users, POST} route
+2024-08-20T09:08:01.777Z info: Mapped {/users, GET} route
+2024-08-20T09:08:01.777Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:08:01.778Z info: Mapped {/users/me, GET} route
+2024-08-20T09:08:01.778Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:08:01.778Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:08:01.778Z info: AuthController {/auth}:
+2024-08-20T09:08:01.778Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:08:01.779Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:08:01.780Z info: Nest application successfully started
+2024-08-20T09:08:11.790Z info: Starting Nest application...
+2024-08-20T09:08:11.808Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:08:11.808Z info: PassportModule dependencies initialized
+2024-08-20T09:08:11.808Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:08:11.809Z info: AppModule dependencies initialized
+2024-08-20T09:08:11.809Z info: ConfigModule dependencies initialized
+2024-08-20T09:08:11.809Z info: ConfigModule dependencies initialized
+2024-08-20T09:08:11.809Z info: JwtModule dependencies initialized
+2024-08-20T09:08:13.889Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:08:13.891Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:08:13.891Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:08:13.893Z info: FilesModule dependencies initialized
+2024-08-20T09:08:13.893Z info: UsersModule dependencies initialized
+2024-08-20T09:08:13.894Z info: AuthModule dependencies initialized
+2024-08-20T09:08:13.910Z info: AppController {/}:
+2024-08-20T09:08:13.910Z info: FilesController {/files}:
+2024-08-20T09:08:13.912Z info: Mapped {/files, POST} route
+2024-08-20T09:08:13.912Z info: Mapped {/files, GET} route
+2024-08-20T09:08:13.913Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:08:13.913Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:08:13.913Z info: Mapped {/files, DELETE} route
+2024-08-20T09:08:13.913Z info: UsersController {/users}:
+2024-08-20T09:08:13.914Z info: Mapped {/users, POST} route
+2024-08-20T09:08:13.914Z info: Mapped {/users, GET} route
+2024-08-20T09:08:13.914Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:08:13.914Z info: Mapped {/users/me, GET} route
+2024-08-20T09:08:13.915Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:08:13.915Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:08:13.915Z info: AuthController {/auth}:
+2024-08-20T09:08:13.915Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:08:13.915Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:08:13.917Z info: Nest application successfully started
+2024-08-20T09:08:19.585Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T09:08:19.585Z info: GET /users/me 500 308ms
+2024-08-20T09:09:26.221Z info: Starting Nest application...
+2024-08-20T09:09:26.240Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:09:26.240Z info: PassportModule dependencies initialized
+2024-08-20T09:09:26.240Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:09:26.240Z info: AppModule dependencies initialized
+2024-08-20T09:09:26.241Z info: ConfigModule dependencies initialized
+2024-08-20T09:09:26.241Z info: ConfigModule dependencies initialized
+2024-08-20T09:09:26.241Z info: JwtModule dependencies initialized
+2024-08-20T09:09:28.305Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:09:28.306Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:09:28.307Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:09:28.308Z info: FilesModule dependencies initialized
+2024-08-20T09:09:28.309Z info: UsersModule dependencies initialized
+2024-08-20T09:09:28.309Z info: AuthModule dependencies initialized
+2024-08-20T09:09:28.322Z info: AppController {/}:
+2024-08-20T09:09:28.322Z info: FilesController {/files}:
+2024-08-20T09:09:28.324Z info: Mapped {/files, POST} route
+2024-08-20T09:09:28.324Z info: Mapped {/files, GET} route
+2024-08-20T09:09:28.324Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:09:28.325Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:09:28.325Z info: Mapped {/files, DELETE} route
+2024-08-20T09:09:28.325Z info: UsersController {/users}:
+2024-08-20T09:09:28.326Z info: Mapped {/users, POST} route
+2024-08-20T09:09:28.326Z info: Mapped {/users, GET} route
+2024-08-20T09:09:28.326Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:09:28.326Z info: Mapped {/users/user, GET} route
+2024-08-20T09:09:28.327Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:09:28.327Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:09:28.327Z info: AuthController {/auth}:
+2024-08-20T09:09:28.327Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:09:28.327Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:09:28.329Z info: Nest application successfully started
+2024-08-20T09:09:36.479Z error: invalid input syntax for uuid: "user" -> QueryFailedError: invalid input syntax for uuid: "user"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-20T09:09:36.479Z info: GET /users/user 500 298ms
+2024-08-20T09:14:03.918Z info: Starting Nest application...
+2024-08-20T09:14:03.937Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:14:03.937Z info: PassportModule dependencies initialized
+2024-08-20T09:14:03.937Z info: ConfigHostModule dependencies initialized
+2024-08-20T09:14:03.937Z info: AppModule dependencies initialized
+2024-08-20T09:14:03.938Z info: ConfigModule dependencies initialized
+2024-08-20T09:14:03.938Z info: ConfigModule dependencies initialized
+2024-08-20T09:14:03.938Z info: JwtModule dependencies initialized
+2024-08-20T09:14:06.347Z info: TypeOrmCoreModule dependencies initialized
+2024-08-20T09:14:06.349Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:14:06.350Z info: TypeOrmModule dependencies initialized
+2024-08-20T09:14:06.353Z info: FilesModule dependencies initialized
+2024-08-20T09:14:06.353Z info: UsersModule dependencies initialized
+2024-08-20T09:14:06.353Z info: AuthModule dependencies initialized
+2024-08-20T09:14:06.374Z info: AppController {/}:
+2024-08-20T09:14:06.374Z info: FilesController {/files}:
+2024-08-20T09:14:06.376Z info: Mapped {/files, POST} route
+2024-08-20T09:14:06.377Z info: Mapped {/files, GET} route
+2024-08-20T09:14:06.377Z info: Mapped {/files/:id, GET} route
+2024-08-20T09:14:06.377Z info: Mapped {/files/:id, PATCH} route
+2024-08-20T09:14:06.378Z info: Mapped {/files, DELETE} route
+2024-08-20T09:14:06.378Z info: UsersController {/users}:
+2024-08-20T09:14:06.378Z info: Mapped {/users, POST} route
+2024-08-20T09:14:06.378Z info: Mapped {/users, GET} route
+2024-08-20T09:14:06.379Z info: Mapped {/users/user, GET} route
+2024-08-20T09:14:06.379Z info: Mapped {/users/:id, GET} route
+2024-08-20T09:14:06.379Z info: Mapped {/users/:id, PATCH} route
+2024-08-20T09:14:06.380Z info: Mapped {/users/:id, DELETE} route
+2024-08-20T09:14:06.380Z info: AuthController {/auth}:
+2024-08-20T09:14:06.380Z info: Mapped {/auth/login, POST} route
+2024-08-20T09:14:06.380Z info: Mapped {/auth/register, POST} route
+2024-08-20T09:14:06.382Z info: Nest application successfully started
+2024-08-20T09:14:12.409Z info: GET /users/user 200 371ms
+2024-08-20T09:14:59.419Z info: GET /users/439722f3-e961-4674-ad13-fc63d93395ac 200 631ms
