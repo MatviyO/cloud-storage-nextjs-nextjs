@@ -42,3 +42,152 @@
 2024-08-18T13:50:41.394Z info: GET /users/me 200 0ms
 2024-08-18T14:12:31.013Z info: GET /users/me 200 5ms
 2024-08-18T14:16:46.822Z info: GET /users/me 200 2ms
+2024-08-18T14:18:22.355Z info: GET /users/me 200 1ms
+2024-08-18T14:18:37.692Z info: GET /users/me 200 0ms
+2024-08-18T14:18:39.997Z info: GET /users/me 200 0ms
+2024-08-18T14:18:52.286Z info: GET /users/me 200 1ms
+2024-08-18T14:19:12.684Z info: GET /users/me 200 0ms
+2024-08-18T14:19:37.835Z info: GET /users/me 200 1ms
+2024-08-18T14:19:52.489Z info: GET /users/me 200 1ms
+2024-08-18T14:20:50.967Z info: GET /users/me 200 1ms
+2024-08-18T14:20:50.968Z info: GET /users/me 200 1ms
+2024-08-18T14:21:22.271Z info: GET /users/me 200 1ms
+2024-08-18T14:21:57.976Z info: GET /users/me 200 2ms
+2024-08-18T14:21:58.004Z info: GET /users/me 200 1ms
+2024-08-18T14:22:24.379Z info: GET /users/me 200 0ms
+2024-08-18T14:23:27.124Z info: GET /users/me 200 1ms
+2024-08-18T14:24:31.272Z info: GET /users/me 200 1ms
+2024-08-18T14:24:31.382Z info: GET /users/me 200 0ms
+2024-08-18T14:25:06.470Z info: GET /users/me 200 0ms
+2024-08-18T14:25:27.496Z info: GET /users/me 200 1ms
+2024-08-18T14:25:27.564Z info: GET /users/me 200 0ms
+2024-08-18T14:25:33.847Z info: GET /users/me 200 1ms
+2024-08-18T14:25:40.491Z info: GET /users/me 200 1ms
+2024-08-18T14:27:52.907Z info: GET /users/me 200 1ms
+2024-08-18T14:28:16.583Z info: GET /users/me 200 0ms
+2024-08-18T14:33:48.319Z info: GET /users/me 200 1ms
+2024-08-18T14:46:19.475Z info: GET /users/me 200 1ms
+2024-08-18T14:49:12.968Z info: GET /users/me 200 1ms
+2024-08-18T14:49:16.619Z info: GET /users/me 200 0ms
+2024-08-18T14:49:19.806Z info: GET /users/me 200 1ms
+2024-08-18T14:50:19.410Z info: GET /users/me 200 2ms
+2024-08-18T14:51:05.382Z info: GET /users/me 200 2ms
+2024-08-18T14:51:16.624Z info: GET /users/me 200 0ms
+2024-08-18T14:51:26.655Z info: GET /users/me 200 0ms
+2024-08-18T15:00:39.575Z info: GET /users/me 200 1ms
+2024-08-18T15:00:43.671Z info: GET /users/me 200 1ms
+2024-08-18T15:02:00.934Z info: GET /users/me 200 2ms
+2024-08-18T15:02:09.300Z info: GET /users/me 200 0ms
+2024-08-18T15:02:13.422Z info: GET /users/me 200 0ms
+2024-08-18T15:02:15.534Z info: GET /users/me 200 1ms
+2024-08-18T15:02:16.281Z info: GET /users/me 200 1ms
+2024-08-18T15:07:28.335Z info: GET /users/me 200 1ms
+2024-08-18T15:07:31.899Z info: GET /users/me 200 1ms
+2024-08-18T15:10:15.357Z info: GET /users/me 200 1ms
+2024-08-18T15:10:21.391Z info: GET /users/me 200 1ms
+2024-08-18T15:10:43.139Z info: GET /users/me 200 2ms
+2024-08-18T15:11:02.978Z info: GET /users/me 200 1ms
+2024-08-18T15:12:15.676Z info: GET /users/me 200 3ms
+2024-08-18T15:12:23.024Z info: GET /users/me 200 0ms
+2024-08-18T15:12:23.762Z info: GET /users/me 200 1ms
+2024-08-18T15:13:26.202Z info: GET /users/me 200 2ms
+2024-08-18T15:15:34.224Z info: GET /users/me 200 1ms
+2024-08-18T15:20:37.995Z info: GET /users/me 200 2ms
+2024-08-18T15:20:44.923Z info: GET /users/me 200 1ms
+2024-08-18T15:21:34.686Z info: GET /users/me 200 1ms
+2024-08-18T15:21:34.784Z info: GET /users/me 200 1ms
+2024-08-18T15:47:27.018Z info: GET /users/me 200 3ms
+2024-08-18T15:48:35.220Z info: GET /users/me 200 2ms
+2024-08-18T15:49:01.522Z info: GET /users/me 200 0ms
+2024-08-18T15:50:45.202Z info: GET /users/me 200 1ms
+2024-08-18T15:52:44.360Z info: GET /users/me 200 2ms
+2024-08-18T16:03:49.653Z info: GET /users/me 200 4ms
+2024-08-18T16:08:19.216Z info: GET /users/me 200 2ms
+2024-08-18T16:09:17.633Z info: GET /users/me 200 3ms
+2024-08-18T16:12:24.644Z info: GET /users/me 200 1ms
+2024-08-18T16:13:38.063Z info: Starting Nest application...
+2024-08-18T16:13:38.087Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:13:38.087Z info: PassportModule dependencies initialized
+2024-08-18T16:13:38.087Z info: ConfigHostModule dependencies initialized
+2024-08-18T16:13:38.087Z info: AppModule dependencies initialized
+2024-08-18T16:13:38.088Z info: ConfigModule dependencies initialized
+2024-08-18T16:13:38.088Z info: ConfigModule dependencies initialized
+2024-08-18T16:13:38.088Z info: JwtModule dependencies initialized
+2024-08-18T16:13:40.481Z info: TypeOrmCoreModule dependencies initialized
+2024-08-18T16:13:40.484Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:13:40.485Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:13:40.488Z info: FilesModule dependencies initialized
+2024-08-18T16:13:40.488Z info: UsersModule dependencies initialized
+2024-08-18T16:13:40.488Z info: AuthModule dependencies initialized
+2024-08-18T16:13:40.508Z info: AppController {/}:
+2024-08-18T16:13:40.508Z info: FilesController {/files}:
+2024-08-18T16:13:40.510Z info: Mapped {/files, POST} route
+2024-08-18T16:13:40.510Z info: Mapped {/files, GET} route
+2024-08-18T16:13:40.510Z info: Mapped {/files/:id, GET} route
+2024-08-18T16:13:40.511Z info: Mapped {/files/:id, PATCH} route
+2024-08-18T16:13:40.511Z info: Mapped {/files, DELETE} route
+2024-08-18T16:13:40.513Z info: UsersController {/users}:
+2024-08-18T16:13:40.513Z info: Mapped {/users, POST} route
+2024-08-18T16:13:40.513Z info: Mapped {/users, GET} route
+2024-08-18T16:13:40.513Z info: Mapped {/users/:id, GET} route
+2024-08-18T16:13:40.514Z info: Mapped {/users/me, GET} route
+2024-08-18T16:13:40.514Z info: Mapped {/users/:id, PATCH} route
+2024-08-18T16:13:40.514Z info: Mapped {/users/:id, DELETE} route
+2024-08-18T16:13:40.515Z info: AuthController {/auth}:
+2024-08-18T16:13:40.515Z info: Mapped {/auth/login, POST} route
+2024-08-18T16:13:40.515Z info: Mapped {/auth/register, POST} route
+2024-08-18T16:13:40.518Z info: Nest application successfully started
+2024-08-18T16:13:41.054Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-18T16:13:41.055Z info: GET /users/me 500 190ms
+2024-08-18T16:13:43.375Z error: invalid input syntax for uuid: "me" -> QueryFailedError: invalid input syntax for uuid: "me"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SelectQueryBuilder.ts:1697:25)
+    at UsersService.findById (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/src/users/users.service.ts:21:12)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-18T16:13:43.376Z info: GET /users/me 500 140ms
+2024-08-18T16:14:34.339Z info: Starting Nest application...
+2024-08-18T16:14:34.371Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:14:34.372Z info: PassportModule dependencies initialized
+2024-08-18T16:14:34.372Z info: ConfigHostModule dependencies initialized
+2024-08-18T16:14:34.372Z info: AppModule dependencies initialized
+2024-08-18T16:14:34.372Z info: ConfigModule dependencies initialized
+2024-08-18T16:14:34.372Z info: ConfigModule dependencies initialized
+2024-08-18T16:14:34.373Z info: JwtModule dependencies initialized
+2024-08-18T16:14:36.423Z info: TypeOrmCoreModule dependencies initialized
+2024-08-18T16:14:36.424Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:14:36.425Z info: TypeOrmModule dependencies initialized
+2024-08-18T16:14:36.427Z info: FilesModule dependencies initialized
+2024-08-18T16:14:36.427Z info: UsersModule dependencies initialized
+2024-08-18T16:14:36.428Z info: AuthModule dependencies initialized
+2024-08-18T16:14:36.446Z info: AppController {/}:
+2024-08-18T16:14:36.446Z info: FilesController {/files}:
+2024-08-18T16:14:36.448Z info: Mapped {/files, POST} route
+2024-08-18T16:14:36.449Z info: Mapped {/files, GET} route
+2024-08-18T16:14:36.449Z info: Mapped {/files/:id, GET} route
+2024-08-18T16:14:36.449Z info: Mapped {/files/:id, PATCH} route
+2024-08-18T16:14:36.450Z info: Mapped {/files, DELETE} route
+2024-08-18T16:14:36.450Z info: UsersController {/users}:
+2024-08-18T16:14:36.450Z info: Mapped {/users, POST} route
+2024-08-18T16:14:36.450Z info: Mapped {/users, GET} route
+2024-08-18T16:14:36.450Z info: Mapped {/users/:id, GET} route
+2024-08-18T16:14:36.451Z info: Mapped {/users/me, GET} route
+2024-08-18T16:14:36.451Z info: Mapped {/users/:id, PATCH} route
+2024-08-18T16:14:36.451Z info: Mapped {/users/:id, DELETE} route
+2024-08-18T16:14:36.451Z info: AuthController {/auth}:
+2024-08-18T16:14:36.451Z info: Mapped {/auth/login, POST} route
+2024-08-18T16:14:36.452Z info: Mapped {/auth/register, POST} route
+2024-08-18T16:14:36.453Z info: Nest application successfully started

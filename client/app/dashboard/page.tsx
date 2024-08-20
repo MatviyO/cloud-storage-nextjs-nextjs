@@ -1,34 +1,16 @@
-import Head from "next/head";
-import {GetServerSidePropsContext} from "next";
-import {getUser} from "@/api/auth";
+import React from "react";
+import {Layout} from "@/layouts/Layout";
+import {checkUser} from "@/utils/ChekUser";
 
 export default async function Page() {
     const user = await checkUser();
-    console.log(user, "user")
     if (!user) {
         location.href = "/login";
     }
     return <>
-         <Head>
-            <title>Dashboard</title>
-         </Head>
-        <main style={{ width: '400px', margin: '50px auto' }}>
-            <h1>Dashboard</h1>
-        </main>
+        <Layout title="Dashboard">
+            <h1>Dashboard Private</h1>
+        </Layout>
     </>
 }
 
-export async function checkUser() {
-    try {
-        const user = await getUser();
-        return user;
-    } catch (err) {
-        console.log(err);
-        return {
-            redirect: {
-                destination: "/login",
-                permanent: false,
-            },
-        };
-    }
-}
