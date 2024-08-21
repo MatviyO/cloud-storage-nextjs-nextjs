@@ -14,7 +14,7 @@ export const register = async (form: IRegisterDTO): Promise<IRegisterResponseDTO
 }
 
 export const getUser = async (): Promise<IUser> => {
-    return (await Api.get('users/me'))?.data;
+    return (await Api.get('users/user'))?.data;
 }
 
 export const logout = async (): Promise<void> => {

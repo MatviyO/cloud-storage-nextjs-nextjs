@@ -1,9 +1,16 @@
 import {getUser} from "@/api/auth";
+import {IUser} from "@/api/dto/IUser";
 
-export async function checkUser() {
+export interface IRedirect {
+    redirect: {
+        destination: string;
+        permanent: boolean;
+    };
+}
+
+export async function checkUser(): Promise<IUser | IRedirect> {
     try {
-        const user = await getUser();
-        return user;
+        return await getUser();
     } catch (err) {
         console.log(err);
         return {

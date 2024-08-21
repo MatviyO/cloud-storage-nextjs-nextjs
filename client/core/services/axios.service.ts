@@ -7,10 +7,14 @@ const createApi = (): AxiosInstance => {
     });
 
     api.interceptors.request.use(config => {
-        if (typeof window !== 'undefined') {
-            const { token } = parseCookies();
-            if (token) {
-                config.headers.Authorization = `Bearer ${token}`;
+        if (typeof window !== "undefined") {
+            // Використовуємо parseCookies тільки на клієнті
+            const { _token } = parseCookies();
+            console.log(_token, "parseCookies");
+
+            config.headers["Content-Type"] = "application/json";
+            if (_token) {
+                config.headers.Authorization = `Bearer ${_token}`;
             }
         }
         return config;
