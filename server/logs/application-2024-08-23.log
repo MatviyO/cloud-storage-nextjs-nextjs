@@ -1,0 +1,120 @@
+2024-08-23T07:48:09.524Z info: Starting Nest application...
+2024-08-23T07:48:09.546Z info: TypeOrmModule dependencies initialized
+2024-08-23T07:48:09.547Z info: PassportModule dependencies initialized
+2024-08-23T07:48:09.547Z info: ConfigHostModule dependencies initialized
+2024-08-23T07:48:09.547Z info: AppModule dependencies initialized
+2024-08-23T07:48:09.547Z info: ConfigModule dependencies initialized
+2024-08-23T07:48:09.547Z info: ConfigModule dependencies initialized
+2024-08-23T07:48:09.548Z info: JwtModule dependencies initialized
+2024-08-23T07:48:11.958Z info: TypeOrmCoreModule dependencies initialized
+2024-08-23T07:48:11.958Z info: TypeOrmModule dependencies initialized
+2024-08-23T07:48:11.959Z info: TypeOrmModule dependencies initialized
+2024-08-23T07:48:11.960Z info: FilesModule dependencies initialized
+2024-08-23T07:48:11.960Z info: UsersModule dependencies initialized
+2024-08-23T07:48:11.960Z info: AuthModule dependencies initialized
+2024-08-23T07:48:11.972Z info: AppController {/}:
+2024-08-23T07:48:11.973Z info: FilesController {/files}:
+2024-08-23T07:48:11.974Z info: Mapped {/files, POST} route
+2024-08-23T07:48:11.974Z info: Mapped {/files, GET} route
+2024-08-23T07:48:11.974Z info: Mapped {/files/:id, GET} route
+2024-08-23T07:48:11.975Z info: Mapped {/files/:id, PATCH} route
+2024-08-23T07:48:11.975Z info: Mapped {/files, DELETE} route
+2024-08-23T07:48:11.975Z info: UsersController {/users}:
+2024-08-23T07:48:11.975Z info: Mapped {/users, POST} route
+2024-08-23T07:48:11.975Z info: Mapped {/users, GET} route
+2024-08-23T07:48:11.976Z info: Mapped {/users/user, GET} route
+2024-08-23T07:48:11.976Z info: Mapped {/users/:id, GET} route
+2024-08-23T07:48:11.976Z info: Mapped {/users/:id, PATCH} route
+2024-08-23T07:48:11.976Z info: Mapped {/users/:id, DELETE} route
+2024-08-23T07:48:11.976Z info: AuthController {/auth}:
+2024-08-23T07:48:11.976Z info: Mapped {/auth/login, POST} route
+2024-08-23T07:48:11.977Z info: Mapped {/auth/register, POST} route
+2024-08-23T07:48:11.978Z info: Nest application successfully started
+2024-08-23T08:55:05.774Z info: GET /users/user 200 1165ms
+2024-08-23T08:55:05.778Z info: GET /files?type=all 401 0ms
+2024-08-23T08:55:05.781Z info: GET /users/user 200 1155ms
+2024-08-23T08:55:05.786Z info: GET /files?type=all 401 0ms
+2024-08-23T08:55:05.787Z info: GET /users/user 200 1126ms
+2024-08-23T08:55:05.790Z info: GET /files?type=all 401 0ms
+2024-08-23T08:55:17.210Z info: POST /auth/login 201 473ms
+2024-08-23T08:55:17.659Z info: GET /users/user 200 347ms
+2024-08-23T08:55:17.664Z info: GET /files?type=all 401 1ms
+2024-08-23T09:00:33.962Z info: POST /auth/login 201 677ms
+2024-08-23T09:09:26.005Z info: GET /users/user 200 759ms
+2024-08-23T09:09:26.013Z info: GET /users/user 200 748ms
+2024-08-23T09:09:26.248Z info: GET /files?type=all 200 239ms
+2024-08-23T09:09:26.252Z info: GET /files?type=all 200 237ms
+2024-08-23T09:09:38.543Z info: GET /users/user 200 708ms
+2024-08-23T09:09:38.550Z info: GET /users/user 200 707ms
+2024-08-23T09:09:38.788Z info: GET /files?type=all 200 240ms
+2024-08-23T09:09:38.790Z info: GET /files?type=all 200 238ms
+2024-08-23T09:11:33.875Z info: GET /users/user 200 745ms
+2024-08-23T09:11:34.116Z info: GET /files?type=all 200 236ms
+2024-08-23T09:14:40.521Z info: GET /users/user 200 751ms
+2024-08-23T09:14:40.767Z info: GET /files?type=all 200 238ms
+2024-08-23T09:14:45.674Z info: GET /users/user 200 354ms
+2024-08-23T09:14:45.912Z info: GET /files?type=photos 200 233ms
+2024-08-23T09:14:52.122Z info: GET /users/user 200 360ms
+2024-08-23T09:14:52.364Z info: GET /files?type=photos 200 238ms
+2024-08-23T09:16:04.213Z info: GET /users/user 200 731ms
+2024-08-23T09:16:04.459Z info: GET /files?type=photos 200 239ms
+2024-08-23T09:16:05.803Z info: GET /users/user 200 343ms
+2024-08-23T09:16:06.039Z info: GET /files?type=photos 200 233ms
+2024-08-23T09:16:11.080Z info: GET /users/user 200 351ms
+2024-08-23T09:16:11.325Z info: GET /files?type=all 200 240ms
+2024-08-23T09:16:14.354Z info: GET /users/user 200 455ms
+2024-08-23T09:16:38.046Z info: GET /users/user 200 701ms
+2024-08-23T09:16:38.291Z info: GET /files?type=all 200 238ms
+2024-08-23T09:16:38.722Z info: GET /users/user 200 354ms
+2024-08-23T09:16:38.967Z info: GET /files?type=all 200 241ms
+2024-08-23T09:16:42.376Z info: GET /users/user 200 359ms
+2024-08-23T09:16:42.616Z info: GET /files?type=photos 200 236ms
+2024-08-23T09:17:27.747Z info: GET /users/user 200 751ms
+2024-08-23T09:17:27.756Z info: GET /users/user 200 727ms
+2024-08-23T09:17:27.981Z info: GET /files?type=photos 200 230ms
+2024-08-23T09:17:27.992Z info: GET /files?type=photos 200 234ms
+2024-08-23T09:17:30.000Z info: GET /users/user 200 352ms
+2024-08-23T09:17:30.234Z info: GET /files?type=all 200 232ms
+2024-08-23T09:33:05.902Z info: POST /files 201 925ms
+2024-08-23T09:33:06.330Z info: GET /users/user 200 358ms
+2024-08-23T09:33:06.573Z info: GET /files?type=all 200 238ms
+2024-08-23T09:33:36.383Z info: GET /users/user 200 1110ms
+2024-08-23T09:33:36.620Z info: GET /files?type=all 200 231ms
+2024-08-23T09:33:44.748Z info: GET /users/user 200 506ms
+2024-08-23T09:33:45.026Z info: GET /files?type=photos 200 276ms
+2024-08-23T09:34:12.622Z info: GET /users/user 200 743ms
+2024-08-23T09:34:12.868Z info: GET /files?type=all 200 237ms
+2024-08-23T09:35:54.495Z info: GET /users/user 200 1116ms
+2024-08-23T09:35:54.747Z info: GET /files?type=all 200 242ms
+2024-08-23T09:36:11.172Z info: GET /users/user 200 701ms
+2024-08-23T09:36:11.410Z info: GET /files?type=photos 200 235ms
+2024-08-23T09:36:13.238Z info: GET /users/user 200 357ms
+2024-08-23T09:36:13.476Z info: GET /files?type=all 200 234ms
+2024-08-23T09:36:59.185Z info: GET /users/user 200 766ms
+2024-08-23T09:36:59.427Z info: GET /files?type=all 200 238ms
+2024-08-23T09:37:01.366Z info: GET /users/user 200 351ms
+2024-08-23T09:37:01.603Z info: GET /files?type=photos 200 235ms
+2024-08-23T09:37:02.811Z info: GET /users/user 200 363ms
+2024-08-23T09:37:03.057Z info: GET /files?type=all 200 242ms
+2024-08-23T09:37:43.590Z info: GET /users/user 200 1107ms
+2024-08-23T09:37:43.990Z info: GET /files?type=all 200 393ms
+2024-08-23T09:38:31.038Z info: GET /users/user 200 748ms
+2024-08-23T09:38:31.395Z info: GET /files?type=all 200 354ms
+2024-08-23T09:38:32.406Z info: GET /users/user 200 351ms
+2024-08-23T09:38:32.644Z info: GET /files?type=all 200 236ms
+2024-08-23T09:39:21.302Z info: GET /users/user 200 762ms
+2024-08-23T10:06:20.334Z info: GET /users/user 200 1046ms
+2024-08-23T10:06:20.724Z info: GET /files?type=trash 200 380ms
+2024-08-23T10:07:24.913Z info: GET /users/user 200 730ms
+2024-08-23T10:07:25.151Z info: GET /files?type=trash 200 229ms
+2024-08-23T10:07:31.772Z error: missing FROM-clause entry for table "file" -> QueryFailedError: missing FROM-clause entry for table "file"
+    at PostgresQueryRunner.query (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/driver/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SoftDeleteQueryBuilder.execute (/Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/typeorm/query-builder/src/query-builder/SoftDeleteQueryBuilder.ts:107:33)
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at async /Users/admin/Github/cloud-storage-nextjs-nextjs/server/node_modules/@nestjs/core/router/router-proxy.js:9:17
+2024-08-23T10:07:31.773Z info: DELETE /files?ids=f5066335-d142-44fd-a1c5-247ff811bce2 500 272ms
+2024-08-23T10:07:34.108Z info: GET /users/user 200 350ms
+2024-08-23T10:07:34.337Z info: GET /files?type=photos 200 226ms
+2024-08-23T10:07:34.973Z info: GET /users/user 200 343ms
+2024-08-23T10:07:35.208Z info: GET /files?type=all 200 233ms
