@@ -33,3 +33,57 @@
 2024-08-21T21:17:05.727Z info: GET /users/user 401 0ms
 2024-08-21T21:17:24.801Z info: GET /users/user 401 1ms
 2024-08-21T21:20:05.428Z info: GET /users/user 401 2ms
+2024-08-22T14:58:51.790Z info: Starting Nest application...
+2024-08-22T14:58:51.814Z info: TypeOrmModule dependencies initialized
+2024-08-22T14:58:51.814Z info: PassportModule dependencies initialized
+2024-08-22T14:58:51.815Z info: ConfigHostModule dependencies initialized
+2024-08-22T14:58:51.815Z info: AppModule dependencies initialized
+2024-08-22T14:58:51.815Z info: ConfigModule dependencies initialized
+2024-08-22T14:58:51.815Z info: ConfigModule dependencies initialized
+2024-08-22T14:58:51.815Z info: JwtModule dependencies initialized
+2024-08-22T14:58:54.600Z info: TypeOrmCoreModule dependencies initialized
+2024-08-22T14:58:54.601Z info: TypeOrmModule dependencies initialized
+2024-08-22T14:58:54.601Z info: TypeOrmModule dependencies initialized
+2024-08-22T14:58:54.603Z info: FilesModule dependencies initialized
+2024-08-22T14:58:54.603Z info: UsersModule dependencies initialized
+2024-08-22T14:58:54.603Z info: AuthModule dependencies initialized
+2024-08-22T14:58:54.615Z info: AppController {/}:
+2024-08-22T14:58:54.616Z info: FilesController {/files}:
+2024-08-22T14:58:54.617Z info: Mapped {/files, POST} route
+2024-08-22T14:58:54.617Z info: Mapped {/files, GET} route
+2024-08-22T14:58:54.617Z info: Mapped {/files/:id, GET} route
+2024-08-22T14:58:54.617Z info: Mapped {/files/:id, PATCH} route
+2024-08-22T14:58:54.618Z info: Mapped {/files, DELETE} route
+2024-08-22T14:58:54.618Z info: UsersController {/users}:
+2024-08-22T14:58:54.618Z info: Mapped {/users, POST} route
+2024-08-22T14:58:54.618Z info: Mapped {/users, GET} route
+2024-08-22T14:58:54.618Z info: Mapped {/users/user, GET} route
+2024-08-22T14:58:54.619Z info: Mapped {/users/:id, GET} route
+2024-08-22T14:58:54.619Z info: Mapped {/users/:id, PATCH} route
+2024-08-22T14:58:54.619Z info: Mapped {/users/:id, DELETE} route
+2024-08-22T14:58:54.619Z info: AuthController {/auth}:
+2024-08-22T14:58:54.619Z info: Mapped {/auth/login, POST} route
+2024-08-22T14:58:54.619Z info: Mapped {/auth/register, POST} route
+2024-08-22T14:58:54.622Z info: Nest application successfully started
+2024-08-22T14:58:59.046Z info: GET /users/user 401 5ms
+2024-08-22T14:59:26.061Z info: GET /users/user 401 2ms
+2024-08-22T15:03:22.767Z info: GET /users/user 401 1ms
+2024-08-22T15:06:13.876Z info: GET /users/user 401 2ms
+2024-08-22T15:11:30.639Z info: GET /users/user 401 1ms
+2024-08-22T15:11:58.600Z info: GET /users/user 401 4ms
+2024-08-22T15:12:25.382Z info: GET /users/user 401 1ms
+2024-08-22T15:12:37.345Z info: GET /users/user 401 0ms
+2024-08-22T15:14:49.149Z info: GET /users/user 200 752ms
+2024-08-22T15:17:19.375Z info: GET /users/user 200 753ms
+2024-08-22T15:18:15.894Z info: GET /users/user 200 776ms
+2024-08-22T15:18:51.020Z info: GET /users/user 200 730ms
+2024-08-22T15:18:59.599Z info: GET /users/user 200 354ms
+2024-08-22T15:19:57.974Z info: GET /users/user 200 1185ms
+2024-08-22T15:19:57.981Z info: GET /users/user 200 1130ms
+2024-08-22T15:20:12.745Z info: GET /users/user 200 697ms
+2024-08-22T15:20:12.899Z info: GET /users/user 200 721ms
+2024-08-22T15:21:32.540Z info: GET /users/user 200 762ms
+2024-08-22T15:21:37.438Z info: GET /users/user 200 683ms
+2024-08-22T15:23:19.737Z info: GET /users/user 200 1198ms
+2024-08-22T17:35:56.250Z info: POST /auth/login 201 938ms
+2024-08-22T17:35:56.311Z info: GET /users/user 401 1ms

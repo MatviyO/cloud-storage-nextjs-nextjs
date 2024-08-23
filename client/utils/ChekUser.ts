@@ -8,16 +8,19 @@ export interface IRedirect {
     };
 }
 
-export async function checkUser(): Promise<IUser | IRedirect> {
+export async function checkUser(token?: string): Promise<IUser | IRedirect> {
     try {
-        return await getUser();
-    } catch (err) {
+        return await getUser(token);
+    } catch (err: any) {
         console.log(err);
-        return {
-            redirect: {
-                destination: "/login",
-                permanent: false,
-            },
-        };
+        if (err?.status === 401) {
+            return {
+                redirect: {
+                    destination: "/login",
+                    permanent: false,
+                },
+            };
+        }
+        throw err;
     }
 }
